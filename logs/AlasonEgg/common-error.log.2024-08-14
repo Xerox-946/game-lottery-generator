@@ -1,0 +1,185 @@
+2024-08-14 11:41:46,743 ERROR 155552 [-/127.0.0.1/-/5ms POST /plan/pushPlan] Error reading JSON file: SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at PlanService.readJSONFile (D:\testTools\egg-project\app\service\plan.js:16:21)
+    at PlanService.addData (D:\testTools\egg-project\app\service\plan.js:36:29)
+    at PlanController.post (D:\testTools\egg-project\app\controller\plan.js:14:24)
+    at Object.callFn (D:\testTools\egg-project\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\testTools\egg-project\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\testTools\egg-project\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\testTools\egg-project\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\testTools\egg-project\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (D:\testTools\egg-project\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+2024-08-14 14:03:47,197 ERROR 163300 [-/127.0.0.1/-/10ms POST /plan/delPlan] nodejs.TypeError: Assignment to constant variable.
+    at PlanService.delPlan (D:\testTools\egg-project\app\service\plan.js:45:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PlanController.delPlan (D:\testTools\egg-project\app\controller\plan.js:33:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 163300
+hostname: DESKTOP-K1T6R27
+
+2024-08-14 14:04:21,360 ERROR 163300 [-/127.0.0.1/-/2ms POST /plan/delPlan] nodejs.TypeError: Assignment to constant variable.
+    at PlanService.delPlan (D:\testTools\egg-project\app\service\plan.js:45:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PlanController.delPlan (D:\testTools\egg-project\app\controller\plan.js:33:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 163300
+hostname: DESKTOP-K1T6R27
+
+2024-08-14 14:36:01,464 ERROR 133824 [-/127.0.0.1/-/9ms POST /plan/updatePlan] nodejs.TypeError: Cannot read properties of undefined (reading 'filter')
+    at PlanService.updatePlan (D:\testTools\egg-project\app\service\plan.js:51:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PlanController.updatePlan (D:\testTools\egg-project\app\controller\plan.js:40:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 133824
+hostname: DESKTOP-K1T6R27
+
+2024-08-14 15:37:01,110 ERROR 153168 [-/127.0.0.1/-/24ms POST /user/login] nodejs.TypeError: data.filter is not a function
+    at PlanService.getUserByName (D:\testTools\egg-project\app\service\userfile.js:28:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async UserController.login (D:\testTools\egg-project\app\controller\userfile.js:15:26)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 153168
+hostname: DESKTOP-K1T6R27
+
+2024-08-14 15:37:48,955 ERROR 153168 [-/127.0.0.1/-/6ms POST /user/login] nodejs.TypeError: data.filter is not a function
+    at PlanService.getUserByName (D:\testTools\egg-project\app\service\userfile.js:28:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async UserController.login (D:\testTools\egg-project\app\controller\userfile.js:15:26)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 153168
+hostname: DESKTOP-K1T6R27
+
+2024-08-14 15:38:13,206 ERROR 154868 [-/127.0.0.1/-/215ms POST /user/login] nodejs.TypeError: data.filter is not a function
+    at PlanService.getUserByName (D:\testTools\egg-project\app\service\userfile.js:29:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async UserController.login (D:\testTools\egg-project\app\controller\userfile.js:15:26)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 154868
+hostname: DESKTOP-K1T6R27
+
+2024-08-14 16:24:21,893 ERROR 151640 [-/127.0.0.1/-/9ms POST /plan/updatePlan] nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at PlanService.updatePlan (D:\testTools\egg-project\app\service\plan.js:51:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PlanController.updatePlan (D:\testTools\egg-project\app\controller\plan.js:40:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 151640
+hostname: DESKTOP-K1T6R27
+
+2024-08-14 16:28:18,463 ERROR 151640 [-/127.0.0.1/-/1ms POST /plan/updatePlan] nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at PlanService.updatePlan (D:\testTools\egg-project\app\service\plan.js:51:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PlanController.updatePlan (D:\testTools\egg-project\app\controller\plan.js:40:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 151640
+hostname: DESKTOP-K1T6R27
+
+2024-08-14 16:28:34,025 ERROR 151640 [-/127.0.0.1/-/2ms POST /plan/updatePlan] nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at PlanService.updatePlan (D:\testTools\egg-project\app\service\plan.js:51:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PlanController.updatePlan (D:\testTools\egg-project\app\controller\plan.js:40:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 151640
+hostname: DESKTOP-K1T6R27
+
+2024-08-14 16:28:46,926 ERROR 151640 [-/127.0.0.1/-/1ms POST /plan/updatePlan] nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at PlanService.updatePlan (D:\testTools\egg-project\app\service\plan.js:51:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PlanController.updatePlan (D:\testTools\egg-project\app\controller\plan.js:40:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 151640
+hostname: DESKTOP-K1T6R27
+
+2024-08-14 16:29:01,851 ERROR 155448 [-/127.0.0.1/-/8ms POST /plan/updatePlan] nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at PlanService.updatePlan (D:\testTools\egg-project\app\service\plan.js:51:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PlanController.updatePlan (D:\testTools\egg-project\app\controller\plan.js:40:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 155448
+hostname: DESKTOP-K1T6R27
+
+2024-08-14 16:30:16,928 ERROR 155448 [-/127.0.0.1/-/2ms POST /plan/updatePlan] nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at PlanService.updatePlan (D:\testTools\egg-project\app\service\plan.js:51:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PlanController.updatePlan (D:\testTools\egg-project\app\controller\plan.js:40:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 155448
+hostname: DESKTOP-K1T6R27
+
+2024-08-14 16:37:46,517 ERROR 157284 [-/127.0.0.1/-/3ms POST /plan/updatePlan] nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at PlanService.updatePlan (D:\testTools\egg-project\app\service\plan.js:51:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PlanController.updatePlan (D:\testTools\egg-project\app\controller\plan.js:40:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 157284
+hostname: DESKTOP-K1T6R27
+
+2024-08-14 16:40:37,189 ERROR 157284 [-/127.0.0.1/-/4ms POST /plan/updatePlan] nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at PlanService.updatePlan (D:\testTools\egg-project\app\service\plan.js:51:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PlanController.updatePlan (D:\testTools\egg-project\app\controller\plan.js:40:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 157284
+hostname: DESKTOP-K1T6R27
+
+2024-08-14 16:41:31,018 ERROR 157284 [-/127.0.0.1/-/2ms POST /plan/updatePlan] nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at PlanService.updatePlan (D:\testTools\egg-project\app\service\plan.js:51:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PlanController.updatePlan (D:\testTools\egg-project\app\controller\plan.js:40:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 157284
+hostname: DESKTOP-K1T6R27
+
+2024-08-14 16:41:55,071 ERROR 157284 [-/127.0.0.1/-/2ms POST /plan/updatePlan] nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at PlanService.updatePlan (D:\testTools\egg-project\app\service\plan.js:51:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PlanController.updatePlan (D:\testTools\egg-project\app\controller\plan.js:40:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 157284
+hostname: DESKTOP-K1T6R27
+
+2024-08-14 16:42:28,036 ERROR 157284 [-/127.0.0.1/-/1ms POST /plan/updatePlan] nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at PlanService.updatePlan (D:\testTools\egg-project\app\service\plan.js:51:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PlanController.updatePlan (D:\testTools\egg-project\app\controller\plan.js:40:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 157284
+hostname: DESKTOP-K1T6R27
+
+2024-08-14 16:42:42,456 ERROR 140616 [-/127.0.0.1/-/8ms POST /plan/updatePlan] nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at PlanService.updatePlan (D:\testTools\egg-project\app\service\plan.js:52:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PlanController.updatePlan (D:\testTools\egg-project\app\controller\plan.js:40:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 140616
+hostname: DESKTOP-K1T6R27
+
+2024-08-14 16:43:13,213 ERROR 140616 [-/127.0.0.1/-/13ms POST /plan/updatePlan] nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at PlanService.updatePlan (D:\testTools\egg-project\app\service\plan.js:52:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PlanController.updatePlan (D:\testTools\egg-project\app\controller\plan.js:40:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 140616
+hostname: DESKTOP-K1T6R27
+
+2024-08-14 16:43:23,888 ERROR 155164 [-/127.0.0.1/-/17ms POST /plan/updatePlan] nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at PlanService.updatePlan (D:\testTools\egg-project\app\service\plan.js:52:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PlanController.updatePlan (D:\testTools\egg-project\app\controller\plan.js:40:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 155164
+hostname: DESKTOP-K1T6R27
+

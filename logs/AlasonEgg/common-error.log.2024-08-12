@@ -1,0 +1,280 @@
+2024-08-12 09:57:54,158 ERROR 15136 [-/127.0.0.1/-/2ms POST /user/register?username=sola&password=123456] nodejs.TypeError: Cannot read properties of undefined (reading 'getUserByName')
+    at UserController.register (D:\linshi\AlasonEgg\app\controller\user.js:23:56)
+    at Object.callFn (D:\linshi\AlasonEgg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\linshi\AlasonEgg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 15136
+hostname: MIKU-LAPTOP
+
+2024-08-12 09:58:57,294 ERROR 15136 [-/127.0.0.1/-/69ms POST /user/register?username=sola&password=123456] nodejs.TypeError: Cannot read properties of undefined (reading 'getUserByName')
+    at UserController.register (D:\linshi\AlasonEgg\app\controller\user.js:23:56)
+    at Object.callFn (D:\linshi\AlasonEgg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\linshi\AlasonEgg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 15136
+hostname: MIKU-LAPTOP
+
+2024-08-12 10:25:36,598 ERROR 65036 [-/127.0.0.1/-/13ms POST /user/register?username=sola&password=123456] nodejs.TypeError: Cannot read properties of undefined (reading 'getUserByName')
+    at UserController.register (D:\linshi\AlasonEgg\app\controller\user.js:23:56)
+    at Object.callFn (D:\linshi\AlasonEgg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\linshi\AlasonEgg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 65036
+hostname: MIKU-LAPTOP
+
+2024-08-12 10:25:43,156 ERROR 65036 [-/127.0.0.1/-/1ms POST /user/register?username=sola&password=123456] nodejs.TypeError: Cannot read properties of undefined (reading 'getUserByName')
+    at UserController.register (D:\linshi\AlasonEgg\app\controller\user.js:23:56)
+    at Object.callFn (D:\linshi\AlasonEgg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\linshi\AlasonEgg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 65036
+hostname: MIKU-LAPTOP
+
+2024-08-12 10:26:50,205 ERROR 21388 [-/127.0.0.1/-/13ms POST /user/register?username=sola&password=123456] nodejs.TypeError: Cannot read properties of undefined (reading 'getUserByName')
+    at UserController.register (D:\linshi\AlasonEgg\app\controller\user.js:24:56)
+    at Object.callFn (D:\linshi\AlasonEgg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\linshi\AlasonEgg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 21388
+hostname: MIKU-LAPTOP
+
+2024-08-12 10:27:12,040 ERROR 56812 [-/127.0.0.1/-/15ms POST /user/register?username=sola&password=123456] nodejs.TypeError: Cannot read properties of undefined (reading 'getUserByName')
+    at UserController.register (D:\linshi\AlasonEgg\app\controller\user.js:24:56)
+    at Object.callFn (D:\linshi\AlasonEgg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\linshi\AlasonEgg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 56812
+hostname: MIKU-LAPTOP
+
+2024-08-12 10:29:22,915 ERROR 51260 [-/127.0.0.1/-/16ms POST /user/register?username=sola&password=123456] nodejs.TypeError: Cannot read properties of undefined (reading 'getUserByName')
+    at UserController.register (D:\linshi\AlasonEgg\app\controller\user.js:24:52)
+    at Object.callFn (D:\linshi\AlasonEgg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\linshi\AlasonEgg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 51260
+hostname: MIKU-LAPTOP
+
+2024-08-12 10:31:20,418 ERROR 69860 [-/127.0.0.1/-/21ms POST /user/register?username=sola&password=123456] nodejs.TypeError: Cannot read properties of undefined (reading 'getUserByName')
+    at UserController.register (D:\linshi\AlasonEgg\app\controller\user.js:23:56)
+    at Object.callFn (D:\linshi\AlasonEgg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\linshi\AlasonEgg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 69860
+hostname: MIKU-LAPTOP
+
+2024-08-12 15:43:29,046 ERROR 149164 [-/127.0.0.1/-/14ms POST /lotteryData] nodejs.TypeError: Cannot read properties of undefined (reading 'list')
+    at LotteryDataController.getList (D:\testTools\egg-project\app\controller\lotteryData.js:13:63)
+    at Object.callFn (D:\testTools\egg-project\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\testTools\egg-project\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\testTools\egg-project\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\testTools\egg-project\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\testTools\egg-project\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (D:\testTools\egg-project\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at D:\testTools\egg-project\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\testTools\egg-project\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at D:\testTools\egg-project\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 149164
+hostname: DESKTOP-K1T6R27
+
+2024-08-12 15:44:53,542 ERROR 162676 [-/127.0.0.1/-/13ms POST /lotteryData] nodejs.TypeError: Cannot read properties of undefined (reading 'list')
+    at LotteryDataController.getList (D:\testTools\egg-project\app\controller\lotteryData.js:14:63)
+    at Object.callFn (D:\testTools\egg-project\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\testTools\egg-project\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\testTools\egg-project\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\testTools\egg-project\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\testTools\egg-project\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (D:\testTools\egg-project\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at D:\testTools\egg-project\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\testTools\egg-project\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at D:\testTools\egg-project\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 162676
+hostname: DESKTOP-K1T6R27
+
+2024-08-12 15:45:12,884 ERROR 161660 [-/127.0.0.1/-/20ms POST /lotteryData] nodejs.TypeError: Cannot read properties of undefined (reading 'list')
+    at LotteryDataController.getList (D:\testTools\egg-project\app\controller\lotteryData.js:14:63)
+    at Object.callFn (D:\testTools\egg-project\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\testTools\egg-project\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\testTools\egg-project\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\testTools\egg-project\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\testTools\egg-project\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (D:\testTools\egg-project\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at D:\testTools\egg-project\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\testTools\egg-project\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at D:\testTools\egg-project\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 161660
+hostname: DESKTOP-K1T6R27
+
+2024-08-12 15:46:08,711 ERROR 153832 [-/127.0.0.1/-/23ms POST /lotteryData] nodejs.TypeError: Cannot read properties of undefined (reading 'Model2')
+    at LotteryData.list (D:\testTools\egg-project\app\service\lotteryData.js:8:30)
+    at LotteryDataController.getList (D:\testTools\egg-project\app\controller\lotteryData.js:14:63)
+    at Object.callFn (D:\testTools\egg-project\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\testTools\egg-project\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\testTools\egg-project\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\testTools\egg-project\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\testTools\egg-project\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (D:\testTools\egg-project\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at D:\testTools\egg-project\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\testTools\egg-project\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 153832
+hostname: DESKTOP-K1T6R27
+
+2024-08-12 20:49:55,308 ERROR 158884 [-/127.0.0.1/-/33ms POST /lottery/lotteryData] nodejs.SequelizeDatabaseError: Undeclared variable: undefined
+    at Query.run (D:\testTools\egg-project\node_modules\.pnpm\sequelize@6.37.3_mysql2@3.11.0\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at D:\testTools\egg-project\node_modules\.pnpm\sequelize@6.37.3_mysql2@3.11.0\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async LotteryData.list (D:\testTools\egg-project\app\service\lotteryData.js:9:25)
+    at async LotteryDataController.getList (D:\testTools\egg-project\app\controller\lotteryData.js:13:33)
+    at async D:\testTools\egg-project\node_modules\.pnpm\egg-development@3.0.0\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_SP_UNDECLARED_VAR","errno":1327,"sqlState":"42000","sqlMessage":"Undeclared variable: undefined","sql":"SELECT * FROM `sys_lottery_data` limit undefined,NaN10"}
+original: {"code":"ER_SP_UNDECLARED_VAR","errno":1327,"sqlState":"42000","sqlMessage":"Undeclared variable: undefined","sql":"SELECT * FROM `sys_lottery_data` limit undefined,NaN10"}
+sql: "SELECT * FROM `sys_lottery_data` limit undefined,NaN10"
+parameters: {}
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 158884
+hostname: DESKTOP-K1T6R27
+
+2024-08-12 20:50:01,663 ERROR 131096 [-/127.0.0.1/-/40ms POST /lottery/lotteryData] nodejs.SequelizeDatabaseError: Undeclared variable: undefined
+    at Query.run (D:\testTools\egg-project\node_modules\.pnpm\sequelize@6.37.3_mysql2@3.11.0\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at D:\testTools\egg-project\node_modules\.pnpm\sequelize@6.37.3_mysql2@3.11.0\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async LotteryData.list (D:\testTools\egg-project\app\service\lotteryData.js:9:25)
+    at async LotteryDataController.getList (D:\testTools\egg-project\app\controller\lotteryData.js:14:33)
+    at async D:\testTools\egg-project\node_modules\.pnpm\egg-development@3.0.0\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_SP_UNDECLARED_VAR","errno":1327,"sqlState":"42000","sqlMessage":"Undeclared variable: undefined","sql":"SELECT * FROM `sys_lottery_data` limit undefined,NaN10"}
+original: {"code":"ER_SP_UNDECLARED_VAR","errno":1327,"sqlState":"42000","sqlMessage":"Undeclared variable: undefined","sql":"SELECT * FROM `sys_lottery_data` limit undefined,NaN10"}
+sql: "SELECT * FROM `sys_lottery_data` limit undefined,NaN10"
+parameters: {}
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 131096
+hostname: DESKTOP-K1T6R27
+
+2024-08-12 20:50:10,180 ERROR 131096 [-/127.0.0.1/-/15ms POST /lottery/lotteryData] nodejs.SequelizeDatabaseError: Undeclared variable: undefined
+    at Query.run (D:\testTools\egg-project\node_modules\.pnpm\sequelize@6.37.3_mysql2@3.11.0\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at D:\testTools\egg-project\node_modules\.pnpm\sequelize@6.37.3_mysql2@3.11.0\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async LotteryData.list (D:\testTools\egg-project\app\service\lotteryData.js:9:25)
+    at async LotteryDataController.getList (D:\testTools\egg-project\app\controller\lotteryData.js:14:33)
+    at async D:\testTools\egg-project\node_modules\.pnpm\egg-development@3.0.0\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_SP_UNDECLARED_VAR","errno":1327,"sqlState":"42000","sqlMessage":"Undeclared variable: undefined","sql":"SELECT * FROM `sys_lottery_data` limit undefined,NaN10"}
+original: {"code":"ER_SP_UNDECLARED_VAR","errno":1327,"sqlState":"42000","sqlMessage":"Undeclared variable: undefined","sql":"SELECT * FROM `sys_lottery_data` limit undefined,NaN10"}
+sql: "SELECT * FROM `sys_lottery_data` limit undefined,NaN10"
+parameters: {}
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 131096
+hostname: DESKTOP-K1T6R27
+
+2024-08-12 20:52:23,932 ERROR 154836 [-/127.0.0.1/-/36ms POST /lottery/lotteryData] nodejs.SequelizeDatabaseError: Undeclared variable: undefined
+    at Query.run (D:\testTools\egg-project\node_modules\.pnpm\sequelize@6.37.3_mysql2@3.11.0\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at D:\testTools\egg-project\node_modules\.pnpm\sequelize@6.37.3_mysql2@3.11.0\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async LotteryData.list (D:\testTools\egg-project\app\service\lotteryData.js:9:25)
+    at async LotteryDataController.getList (D:\testTools\egg-project\app\controller\lotteryData.js:15:33)
+    at async D:\testTools\egg-project\node_modules\.pnpm\egg-development@3.0.0\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_SP_UNDECLARED_VAR","errno":1327,"sqlState":"42000","sqlMessage":"Undeclared variable: undefined","sql":"SELECT * FROM `sys_lottery_data` limit undefined,NaN10"}
+original: {"code":"ER_SP_UNDECLARED_VAR","errno":1327,"sqlState":"42000","sqlMessage":"Undeclared variable: undefined","sql":"SELECT * FROM `sys_lottery_data` limit undefined,NaN10"}
+sql: "SELECT * FROM `sys_lottery_data` limit undefined,NaN10"
+parameters: {}
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 154836
+hostname: DESKTOP-K1T6R27
+
+2024-08-12 20:53:04,335 ERROR 154836 [-/127.0.0.1/-/15ms POST /lottery/lotteryData] nodejs.SequelizeDatabaseError: Undeclared variable: undefined
+    at Query.run (D:\testTools\egg-project\node_modules\.pnpm\sequelize@6.37.3_mysql2@3.11.0\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at D:\testTools\egg-project\node_modules\.pnpm\sequelize@6.37.3_mysql2@3.11.0\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async LotteryData.list (D:\testTools\egg-project\app\service\lotteryData.js:9:25)
+    at async LotteryDataController.getList (D:\testTools\egg-project\app\controller\lotteryData.js:15:33)
+    at async D:\testTools\egg-project\node_modules\.pnpm\egg-development@3.0.0\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_SP_UNDECLARED_VAR","errno":1327,"sqlState":"42000","sqlMessage":"Undeclared variable: undefined","sql":"SELECT * FROM `sys_lottery_data` limit undefined,NaN10"}
+original: {"code":"ER_SP_UNDECLARED_VAR","errno":1327,"sqlState":"42000","sqlMessage":"Undeclared variable: undefined","sql":"SELECT * FROM `sys_lottery_data` limit undefined,NaN10"}
+sql: "SELECT * FROM `sys_lottery_data` limit undefined,NaN10"
+parameters: {}
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 154836
+hostname: DESKTOP-K1T6R27
+

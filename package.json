@@ -1,0 +1,55 @@
+{
+  "name": "AlasonEgg",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "egg": {
+    "declarations": true
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "egg-cors": "^2.2.4",
+    "egg-jwt": "^3.1.7",
+    "egg-passport": "^2.1.1",
+    "egg-scripts": "^2.17.0",
+    "egg-sequelize": "^6.0.0",
+    "egg-validate": "^2.0.2",
+    "fs": "0.0.1-security",
+    "mysql2": "^3.11.3",
+    "node-fetch": "^3.3.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "egg-bin": "^5.18.1",
+    "egg-ci": "^2.2.0",
+    "egg-mock": "^5.12.5",
+    "eslint": "^8.57.1",
+    "eslint-config-egg": "^12.3.1",
+    "sequelize-cli": "^6.6.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "start": "egg-scripts start --daemon --title=egg-server-AlasonEgg",
+    "stop": "egg-scripts stop --title=egg-server-AlasonEgg",
+    "dev": "egg-bin dev --port 7002",
+    "debug": "egg-bin debug",
+    "test": "npm run lint -- --fix && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "npm run lint && npm run cov",
+    "m": "node tools/create_model"
+  },
+  "ci": {
+    "version": "16, 18",
+    "type": "github"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "xiao",
+  "license": "MIT"
+}

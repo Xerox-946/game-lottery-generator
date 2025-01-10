@@ -1,0 +1,307 @@
+2024-08-15 00:00:01,361 INFO 163728 [egg-logrotator] agent logger reload: got log-reload message
+2024-08-15 10:55:05,094 WARN 163728 [agent:development] reload worker because D:\testTools\egg-project\app\data\plan.json change
+2024-08-15 10:55:04,696 INFO 163728 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\testTools\\egg-project\\app\\data\\plan.json","stat":{"dev":604012101,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":1125899907637192,"size":695,"blocks":1,"atimeMs":1723690504019.4058,"mtimeMs":1723690504019.4058,"ctimeMs":1723690504019.4058,"birthtimeMs":1723606245662.353,"atime":"2024-08-15T02:55:04.019Z","mtime":"2024-08-15T02:55:04.019Z","ctime":"2024-08-15T02:55:04.019Z","birthtime":"2024-08-14T03:30:45.662Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-15 10:55:04,892 INFO 163728 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\testTools\\egg-project\\app\\data\\plan.json","stat":{"dev":604012101,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":1125899907637192,"size":695,"blocks":1,"atimeMs":1723690504019.4058,"mtimeMs":1723690504019.4058,"ctimeMs":1723690504019.4058,"birthtimeMs":1723606245662.353,"atime":"2024-08-15T02:55:04.019Z","mtime":"2024-08-15T02:55:04.019Z","ctime":"2024-08-15T02:55:04.019Z","birthtime":"2024-08-14T03:30:45.662Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-15 10:55:17,252 WARN 163728 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-15 10:55:19,231 WARN 163728 [agent:development] reload worker because D:\testTools\egg-project\app\data\plan.json change
+2024-08-15 10:55:19,028 INFO 163728 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\testTools\\egg-project\\app\\data\\plan.json","stat":{"dev":604012101,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":1125899907637192,"size":695,"blocks":1,"atimeMs":1723690519017.9402,"mtimeMs":1723690519017.9402,"ctimeMs":1723690519017.9402,"birthtimeMs":1723606245662.353,"atime":"2024-08-15T02:55:19.018Z","mtime":"2024-08-15T02:55:19.018Z","ctime":"2024-08-15T02:55:19.018Z","birthtime":"2024-08-14T03:30:45.662Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-15 10:55:19,029 INFO 163728 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\testTools\\egg-project\\app\\data\\plan.json","stat":{"dev":604012101,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":1125899907637192,"size":695,"blocks":1,"atimeMs":1723690519017.9402,"mtimeMs":1723690519017.9402,"ctimeMs":1723690519017.9402,"birthtimeMs":1723606245662.353,"atime":"2024-08-15T02:55:19.018Z","mtime":"2024-08-15T02:55:19.018Z","ctime":"2024-08-15T02:55:19.018Z","birthtime":"2024-08-14T03:30:45.662Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-15 10:55:21,491 WARN 163728 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-15 10:55:33,376 WARN 163728 [agent:development] reload worker because D:\testTools\egg-project\app\data\plan.json change
+2024-08-15 10:55:33,159 INFO 163728 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\testTools\\egg-project\\app\\data\\plan.json","stat":{"dev":604012101,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":1125899907637192,"size":695,"blocks":1,"atimeMs":1723690533158.3186,"mtimeMs":1723690533158.3186,"ctimeMs":1723690533158.3186,"birthtimeMs":1723606245662.353,"atime":"2024-08-15T02:55:33.158Z","mtime":"2024-08-15T02:55:33.158Z","ctime":"2024-08-15T02:55:33.158Z","birthtime":"2024-08-14T03:30:45.662Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-15 10:55:33,176 INFO 163728 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\testTools\\egg-project\\app\\data\\plan.json","stat":{"dev":604012101,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":1125899907637192,"size":695,"blocks":1,"atimeMs":1723690533158.3186,"mtimeMs":1723690533158.3186,"ctimeMs":1723690533158.3186,"birthtimeMs":1723606245662.353,"atime":"2024-08-15T02:55:33.158Z","mtime":"2024-08-15T02:55:33.158Z","ctime":"2024-08-15T02:55:33.158Z","birthtime":"2024-08-14T03:30:45.662Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-15 10:55:35,101 WARN 163728 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-15 10:55:42,400 WARN 163728 [agent:development] reload worker because D:\testTools\egg-project\app\data\plan.json change
+2024-08-15 10:55:42,187 INFO 163728 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\testTools\\egg-project\\app\\data\\plan.json","stat":{"dev":604012101,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":1125899907637192,"size":695,"blocks":1,"atimeMs":1723690542187.2764,"mtimeMs":1723690542187.2764,"ctimeMs":1723690542187.2764,"birthtimeMs":1723606245662.353,"atime":"2024-08-15T02:55:42.187Z","mtime":"2024-08-15T02:55:42.187Z","ctime":"2024-08-15T02:55:42.187Z","birthtime":"2024-08-14T03:30:45.662Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-15 10:55:42,200 INFO 163728 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\testTools\\egg-project\\app\\data\\plan.json","stat":{"dev":604012101,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":1125899907637192,"size":695,"blocks":1,"atimeMs":1723690542187.2764,"mtimeMs":1723690542187.2764,"ctimeMs":1723690542187.2764,"birthtimeMs":1723606245662.353,"atime":"2024-08-15T02:55:42.187Z","mtime":"2024-08-15T02:55:42.187Z","ctime":"2024-08-15T02:55:42.187Z","birthtime":"2024-08-14T03:30:45.662Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-15 10:55:44,151 WARN 163728 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-15 10:56:07,853 WARN 163728 [agent:development] reload worker because D:\testTools\egg-project\app\data\plan.json change
+2024-08-15 10:56:07,651 INFO 163728 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\testTools\\egg-project\\app\\data\\plan.json","stat":{"dev":604012101,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":1125899907637192,"size":695,"blocks":1,"atimeMs":1723690567650.6006,"mtimeMs":1723690567650.6006,"ctimeMs":1723690567650.6006,"birthtimeMs":1723606245662.353,"atime":"2024-08-15T02:56:07.651Z","mtime":"2024-08-15T02:56:07.651Z","ctime":"2024-08-15T02:56:07.651Z","birthtime":"2024-08-14T03:30:45.662Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-15 10:56:07,652 INFO 163728 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\testTools\\egg-project\\app\\data\\plan.json","stat":{"dev":604012101,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":1125899907637192,"size":695,"blocks":1,"atimeMs":1723690567650.6006,"mtimeMs":1723690567650.6006,"ctimeMs":1723690567650.6006,"birthtimeMs":1723606245662.353,"atime":"2024-08-15T02:56:07.651Z","mtime":"2024-08-15T02:56:07.651Z","ctime":"2024-08-15T02:56:07.651Z","birthtime":"2024-08-14T03:30:45.662Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-15 10:56:09,613 WARN 163728 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-15 10:56:30,040 WARN 163728 [agent:development] reload worker because D:\testTools\egg-project\app\data\plan.json change
+2024-08-15 10:56:29,839 INFO 163728 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\testTools\\egg-project\\app\\data\\plan.json","stat":{"dev":604012101,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":1125899907637192,"size":841,"blocks":8,"atimeMs":1723690589839.2065,"mtimeMs":1723690589839.2065,"ctimeMs":1723690589839.2065,"birthtimeMs":1723606245662.353,"atime":"2024-08-15T02:56:29.839Z","mtime":"2024-08-15T02:56:29.839Z","ctime":"2024-08-15T02:56:29.839Z","birthtime":"2024-08-14T03:30:45.662Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-15 10:56:29,840 INFO 163728 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\testTools\\egg-project\\app\\data\\plan.json","stat":{"dev":604012101,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":1125899907637192,"size":841,"blocks":8,"atimeMs":1723690589839.2065,"mtimeMs":1723690589839.2065,"ctimeMs":1723690589839.2065,"birthtimeMs":1723606245662.353,"atime":"2024-08-15T02:56:29.839Z","mtime":"2024-08-15T02:56:29.839Z","ctime":"2024-08-15T02:56:29.839Z","birthtime":"2024-08-14T03:30:45.662Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-15 10:56:31,736 WARN 163728 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-15 11:06:28,417 WARN 163728 [agent:development] reload worker because D:\testTools\egg-project\app\data\plan.json change
+2024-08-15 11:06:28,120 INFO 163728 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\testTools\\egg-project\\app\\data\\plan.json","stat":{"dev":604012101,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":1125899907637192,"size":980,"blocks":8,"atimeMs":1723691188119.7512,"mtimeMs":1723691188119.7512,"ctimeMs":1723691188119.7512,"birthtimeMs":1723606245662.353,"atime":"2024-08-15T03:06:28.120Z","mtime":"2024-08-15T03:06:28.120Z","ctime":"2024-08-15T03:06:28.120Z","birthtime":"2024-08-14T03:30:45.662Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-15 11:06:28,207 INFO 163728 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\testTools\\egg-project\\app\\data\\plan.json","stat":{"dev":604012101,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":1125899907637192,"size":980,"blocks":8,"atimeMs":1723691188119.7512,"mtimeMs":1723691188119.7512,"ctimeMs":1723691188119.7512,"birthtimeMs":1723606245662.353,"atime":"2024-08-15T03:06:28.120Z","mtime":"2024-08-15T03:06:28.120Z","ctime":"2024-08-15T03:06:28.120Z","birthtime":"2024-08-14T03:30:45.662Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-15 11:06:37,744 WARN 163728 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-15 11:06:56,241 INFO 163728 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\testTools\\egg-project\\app\\data\\plan.json","stat":{"dev":604012101,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":1125899907637192,"size":980,"blocks":8,"atimeMs":1723691216240.4453,"mtimeMs":1723691216240.4453,"ctimeMs":1723691216240.4453,"birthtimeMs":1723606245662.353,"atime":"2024-08-15T03:06:56.240Z","mtime":"2024-08-15T03:06:56.240Z","ctime":"2024-08-15T03:06:56.240Z","birthtime":"2024-08-14T03:30:45.662Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-15 11:06:56,257 INFO 163728 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\testTools\\egg-project\\app\\data\\plan.json","stat":{"dev":604012101,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":1125899907637192,"size":980,"blocks":8,"atimeMs":1723691216240.4453,"mtimeMs":1723691216240.4453,"ctimeMs":1723691216240.4453,"birthtimeMs":1723606245662.353,"atime":"2024-08-15T03:06:56.240Z","mtime":"2024-08-15T03:06:56.240Z","ctime":"2024-08-15T03:06:56.240Z","birthtime":"2024-08-14T03:30:45.662Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-15 11:06:56,463 WARN 163728 [agent:development] reload worker because D:\testTools\egg-project\app\data\plan.json change
+2024-08-15 11:06:58,213 WARN 163728 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-15 11:07:51,836 WARN 163728 [agent:development] reload worker because D:\testTools\egg-project\app\data\plan.json change
+2024-08-15 11:07:51,612 INFO 163728 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\testTools\\egg-project\\app\\data\\plan.json","stat":{"dev":604012101,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":1125899907637192,"size":980,"blocks":8,"atimeMs":1723691271610.8877,"mtimeMs":1723691271610.8877,"ctimeMs":1723691271610.8877,"birthtimeMs":1723606245662.353,"atime":"2024-08-15T03:07:51.611Z","mtime":"2024-08-15T03:07:51.611Z","ctime":"2024-08-15T03:07:51.611Z","birthtime":"2024-08-14T03:30:45.662Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-15 11:07:51,635 INFO 163728 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\testTools\\egg-project\\app\\data\\plan.json","stat":{"dev":604012101,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":1125899907637192,"size":980,"blocks":8,"atimeMs":1723691271610.8877,"mtimeMs":1723691271610.8877,"ctimeMs":1723691271610.8877,"birthtimeMs":1723606245662.353,"atime":"2024-08-15T03:07:51.611Z","mtime":"2024-08-15T03:07:51.611Z","ctime":"2024-08-15T03:07:51.611Z","birthtime":"2024-08-14T03:30:45.662Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-15 11:07:53,554 WARN 163728 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-15 11:11:27,422 WARN 163728 [agent:development] reload worker because D:\testTools\egg-project\app\data\plan.json change
+2024-08-15 11:11:27,198 INFO 163728 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\testTools\\egg-project\\app\\data\\plan.json","stat":{"dev":604012101,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":1125899907637192,"size":1120,"blocks":8,"atimeMs":1723691487197.4565,"mtimeMs":1723691487197.4565,"ctimeMs":1723691487197.4565,"birthtimeMs":1723606245662.353,"atime":"2024-08-15T03:11:27.197Z","mtime":"2024-08-15T03:11:27.197Z","ctime":"2024-08-15T03:11:27.197Z","birthtime":"2024-08-14T03:30:45.662Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-15 11:11:27,222 INFO 163728 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\testTools\\egg-project\\app\\data\\plan.json","stat":{"dev":604012101,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":1125899907637192,"size":1120,"blocks":8,"atimeMs":1723691487197.4565,"mtimeMs":1723691487197.4565,"ctimeMs":1723691487197.4565,"birthtimeMs":1723606245662.353,"atime":"2024-08-15T03:11:27.197Z","mtime":"2024-08-15T03:11:27.197Z","ctime":"2024-08-15T03:11:27.197Z","birthtime":"2024-08-14T03:30:45.662Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-15 11:11:29,229 WARN 163728 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-15 13:29:31,745 INFO 1516 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-15 13:29:31,747 INFO 1516 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2024-08-15 13:29:31,172 INFO 1516 [egg:logger] init all loggers with options: {"dir":"D:\\game-lottery-generator\\egg-project\\logs\\AlasonEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"AlasonEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false}}
+2024-08-15 13:29:31,661 INFO 1516 [egg:core] dump config after load, 4ms
+2024-08-15 13:29:31,695 INFO 1516 [egg-watcher] Start watching: ["D:\\game-lottery-generator\\egg-project\\app","D:\\game-lottery-generator\\egg-project\\config","D:\\game-lottery-generator\\egg-project\\mocks","D:\\game-lottery-generator\\egg-project\\mocks_proxy","D:\\game-lottery-generator\\egg-project\\app.js"]
+2024-08-15 13:29:31,695 INFO 1516 [egg-watcher] Start watching: "D:\\game-lottery-generator\\egg-project\\app"
+2024-08-15 13:29:31,696 INFO 1516 [egg-watcher] Start watching: "D:\\game-lottery-generator\\egg-project\\config"
+2024-08-15 13:29:31,696 INFO 1516 [egg-watcher] Start watching: "D:\\game-lottery-generator\\egg-project\\mocks"
+2024-08-15 13:29:31,696 INFO 1516 [egg-watcher] Start watching: "D:\\game-lottery-generator\\egg-project\\mocks_proxy"
+2024-08-15 13:29:31,696 INFO 1516 [egg-watcher] Start watching: "D:\\game-lottery-generator\\egg-project\\app.js"
+2024-08-15 13:29:31,696 INFO 1516 [egg-watcher:agent] watcher start success
+2024-08-15 13:29:31,806 INFO 1516 egg start timeline:
+▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [1787ms] - #0 Process Start
+                                  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [776ms] - #1 Application Start
+                                  ▇ [22ms] - #2 Load Plugin
+                                   ▇ [18ms] - #3 Load Config
+                                   ▇ [0ms] - #4 Require(0) config/config.default.js
+                                   ▇ [0ms] - #5 Require(1) node_modules/.pnpm/egg-session@3.3.0/node_modules/egg-session/config/config.default.js
+                                   ▇ [0ms] - #6 Require(2) node_modules/.pnpm/egg-security@3.6.0/node_modules/egg-security/config/config.default.js
+                                   ▇ [1ms] - #7 Require(3) node_modules/.pnpm/egg-jsonp@2.0.0/node_modules/egg-jsonp/config/config.default.js
+                                   ▇ [0ms] - #8 Require(4) node_modules/.pnpm/egg-onerror@2.2.0/node_modules/egg-onerror/config/config.default.js
+                                   ▇ [0ms] - #9 Require(5) node_modules/.pnpm/egg-i18n@2.1.1/node_modules/egg-i18n/config/config.default.js
+                                   ▇ [1ms] - #10 Require(6) node_modules/.pnpm/egg-watcher@3.1.1/node_modules/egg-watcher/config/config.default.js
+                                   ▇ [0ms] - #11 Require(7) node_modules/.pnpm/egg-schedule@4.0.1/node_modules/egg-schedule/config/config.default.js
+                                   ▇ [0ms] - #12 Require(8) node_modules/.pnpm/egg-multipart@3.4.0/node_modules/egg-multipart/config/config.default.js
+                                   ▇ [1ms] - #13 Require(9) node_modules/.pnpm/egg-development@3.0.0/node_modules/egg-development/config/config.default.js
+                                   ▇ [0ms] - #14 Require(10) node_modules/.pnpm/egg-logrotator@3.1.0/node_modules/egg-logrotator/config/config.default.js
+                                   ▇ [1ms] - #15 Require(11) node_modules/.pnpm/egg-static@2.3.1/node_modules/egg-static/config/config.default.js
+                                   ▇ [0ms] - #16 Require(12) node_modules/.pnpm/egg-view@2.1.4/node_modules/egg-view/config/config.default.js
+                                   ▇ [0ms] - #17 Require(13) node_modules/.pnpm/egg-sequelize@6.0.0_mysql2@3.11.0/node_modules/egg-sequelize/config/config.default.js
+                                   ▇ [1ms] - #18 Require(14) node_modules/.pnpm/egg-validate@2.0.2/node_modules/egg-validate/config/config.default.js
+                                   ▇ [0ms] - #19 Require(15) node_modules/.pnpm/egg-cors@2.2.4/node_modules/egg-cors/config/config.default.js
+                                   ▇ [1ms] - #20 Require(16) node_modules/.pnpm/egg-jwt@3.1.7/node_modules/egg-jwt/config/config.default.js
+                                   ▇ [0ms] - #21 Require(17) node_modules/.pnpm/egg@3.27.1/node_modules/egg/config/config.default.js
+                                   ▇ [0ms] - #22 Require(18) config/config.default.js
+                                   ▇ [0ms] - #23 Require(19) node_modules/.pnpm/egg-security@3.6.0/node_modules/egg-security/config/config.local.js
+                                   ▇ [0ms] - #24 Require(20) node_modules/.pnpm/egg-watcher@3.1.1/node_modules/egg-watcher/config/config.local.js
+                                   ▇ [0ms] - #25 Require(21) node_modules/.pnpm/egg-view@2.1.4/node_modules/egg-view/config/config.local.js
+                                   ▇ [1ms] - #26 Require(22) node_modules/.pnpm/egg@3.27.1/node_modules/egg/config/config.local.js
+                                   ▇ [39ms] - #27 Load extend/agent.js
+                                   ▇ [1ms] - #28 Require(23) node_modules/.pnpm/egg-security@3.6.0/node_modules/egg-security/app/extend/agent.js
+                                   ▇ [31ms] - #29 Require(24) node_modules/.pnpm/egg-schedule@4.0.1/node_modules/egg-schedule/app/extend/agent.js
+                                    ▇ [2ms] - #30 Require(25) node_modules/.pnpm/egg-logrotator@3.1.0/node_modules/egg-logrotator/app/extend/agent.js
+                                    ▇ [36ms] - #31 Load extend/context.js
+                                    ▇ [11ms] - #32 Require(26) node_modules/.pnpm/egg-security@3.6.0/node_modules/egg-security/app/extend/context.js
+                                    ▇ [2ms] - #33 Require(27) node_modules/.pnpm/egg-jsonp@2.0.0/node_modules/egg-jsonp/app/extend/context.js
+                                    ▇ [0ms] - #34 Require(28) node_modules/.pnpm/egg-i18n@2.1.1/node_modules/egg-i18n/app/extend/context.js
+                                    ▇ [14ms] - #35 Require(29) node_modules/.pnpm/egg-multipart@3.4.0/node_modules/egg-multipart/app/extend/context.js
+                                     ▇ [1ms] - #36 Require(30) node_modules/.pnpm/egg-view@2.1.4/node_modules/egg-view/app/extend/context.js
+                                     ▇ [0ms] - #37 Require(31) node_modules/.pnpm/egg-validate@2.0.2/node_modules/egg-validate/app/extend/context.js
+                                     ▇ [1ms] - #38 Require(32) node_modules/.pnpm/egg@3.27.1/node_modules/egg/app/extend/context.js
+                                     ▇ [18ms] - #39 Load agent.js
+                                     ▇ [0ms] - #40 Require(33) node_modules/.pnpm/egg-security@3.6.0/node_modules/egg-security/agent.js
+                                     ▇ [0ms] - #41 Require(34) node_modules/.pnpm/egg-onerror@2.2.0/node_modules/egg-onerror/agent.js
+                                     ▇ [3ms] - #42 Require(35) node_modules/.pnpm/egg-watcher@3.1.1/node_modules/egg-watcher/agent.js
+                                     ▇ [1ms] - #43 Require(36) node_modules/.pnpm/egg-schedule@4.0.1/node_modules/egg-schedule/agent.js
+                                     ▇ [10ms] - #44 Require(37) node_modules/.pnpm/egg-development@3.0.0/node_modules/egg-development/agent.js
+                                     ▇ [0ms] - #45 Require(38) node_modules/.pnpm/egg-logrotator@3.1.0/node_modules/egg-logrotator/agent.js
+                                     ▇ [0ms] - #46 Require(39) node_modules/.pnpm/egg-sequelize@6.0.0_mysql2@3.11.0/node_modules/egg-sequelize/agent.js
+                                     ▇ [0ms] - #47 Require(40) node_modules/.pnpm/egg@3.27.1/node_modules/egg/agent.js
+                                     ▇▇▇▇▇▇▇▇▇▇ [522ms] - #48 Before Start in node_modules/.pnpm/egg-watcher@3.1.1/node_modules/egg-watcher/lib/init.js:15:14
+                                     ▇▇▇▇▇▇▇▇▇ [506ms] - #49 Before Start in node_modules/.pnpm/egg-schedule@4.0.1/node_modules/egg-schedule/agent.js:12:9
+                                     ▇▇▇▇▇▇▇▇▇▇▇▇ [624ms] - #50 Before Start in node_modules/.pnpm/egg-development@3.0.0/node_modules/egg-development/agent.js:8:9
+                                              ▇ [9ms] - #51 Load "Symbol(model)" to Application
+                                              ▇ [22ms] - #52 Load "Symbol(Model2)" to Application
+                                               ▇ [91ms] - #53 Before Start in node_modules/.pnpm/egg-sequelize@6.0.0_mysql2@3.11.0/node_modules/egg-sequelize/lib/loader.js:39:7
+2024-08-15 13:29:31,806 INFO 1516 [egg:core] dump config after ready, 6ms
+2024-11-01 17:50:23,666 INFO 31564 [egg:logger] init all loggers with options: {"dir":"D:\\game-lottery-generator\\egg-project\\logs\\AlasonEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"AlasonEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false}}
+2024-11-01 17:50:25,682 INFO 31564 [egg:core] dump config after load, 5ms
+2024-11-01 17:50:25,798 INFO 31564 [egg-watcher] Start watching: ["D:\\game-lottery-generator\\egg-project\\app","D:\\game-lottery-generator\\egg-project\\config","D:\\game-lottery-generator\\egg-project\\mocks","D:\\game-lottery-generator\\egg-project\\mocks_proxy","D:\\game-lottery-generator\\egg-project\\app.js"]
+2024-11-01 17:50:25,798 INFO 31564 [egg-watcher] Start watching: "D:\\game-lottery-generator\\egg-project\\app"
+2024-11-01 17:50:25,798 INFO 31564 [egg-watcher] Start watching: "D:\\game-lottery-generator\\egg-project\\config"
+2024-11-01 17:50:25,798 INFO 31564 [egg-watcher] Start watching: "D:\\game-lottery-generator\\egg-project\\mocks"
+2024-11-01 17:50:25,799 INFO 31564 [egg-watcher] Start watching: "D:\\game-lottery-generator\\egg-project\\mocks_proxy"
+2024-11-01 17:50:25,799 INFO 31564 [egg-watcher] Start watching: "D:\\game-lottery-generator\\egg-project\\app.js"
+2024-11-01 17:50:25,799 INFO 31564 [egg-watcher:agent] watcher start success
+2024-11-01 17:50:25,995 INFO 31564 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2024-11-01 17:50:26,088 INFO 31564 egg start timeline:
+▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [8871ms] - #0 Process Start
+                                      ▇▇▇▇▇▇▇▇▇▇▇ [2761ms] - #1 Application Start
+                                      ▇ [99ms] - #2 Load Plugin
+                                      ▇ [90ms] - #3 Load Config
+                                      ▇ [1ms] - #4 Require(0) config/config.default.js
+                                      ▇ [0ms] - #5 Require(1) node_modules/.pnpm/egg-session@3.3.0/node_modules/egg-session/config/config.default.js
+                                      ▇ [0ms] - #6 Require(2) node_modules/.pnpm/egg-security@3.6.0/node_modules/egg-security/config/config.default.js
+                                      ▇ [0ms] - #7 Require(3) node_modules/.pnpm/egg-jsonp@2.0.0/node_modules/egg-jsonp/config/config.default.js
+                                      ▇ [1ms] - #8 Require(4) node_modules/.pnpm/egg-onerror@2.4.0/node_modules/egg-onerror/config/config.default.js
+                                      ▇ [0ms] - #9 Require(5) node_modules/.pnpm/egg-i18n@2.1.1/node_modules/egg-i18n/config/config.default.js
+                                      ▇ [0ms] - #10 Require(6) node_modules/.pnpm/egg-watcher@3.1.1/node_modules/egg-watcher/config/config.default.js
+                                      ▇ [1ms] - #11 Require(7) node_modules/.pnpm/egg-schedule@4.0.1/node_modules/egg-schedule/config/config.default.js
+                                      ▇ [0ms] - #12 Require(8) node_modules/.pnpm/egg-multipart@3.4.0/node_modules/egg-multipart/config/config.default.js
+                                      ▇ [0ms] - #13 Require(9) node_modules/.pnpm/egg-development@3.0.0/node_modules/egg-development/config/config.default.js
+                                      ▇ [0ms] - #14 Require(10) node_modules/.pnpm/egg-logrotator@3.2.0/node_modules/egg-logrotator/config/config.default.js
+                                      ▇ [0ms] - #15 Require(11) node_modules/.pnpm/egg-static@2.3.1/node_modules/egg-static/config/config.default.js
+                                      ▇ [0ms] - #16 Require(12) node_modules/.pnpm/egg-view@2.1.4/node_modules/egg-view/config/config.default.js
+                                      ▇ [0ms] - #17 Require(13) node_modules/.pnpm/egg-sequelize@6.0.0_mysql2@3.11.3/node_modules/egg-sequelize/config/config.default.js
+                                      ▇ [1ms] - #18 Require(14) node_modules/.pnpm/egg-validate@2.0.2/node_modules/egg-validate/config/config.default.js
+                                      ▇ [0ms] - #19 Require(15) node_modules/.pnpm/egg-cors@2.2.4/node_modules/egg-cors/config/config.default.js
+                                      ▇ [1ms] - #20 Require(16) node_modules/.pnpm/egg-jwt@3.1.7/node_modules/egg-jwt/config/config.default.js
+                                      ▇ [0ms] - #21 Require(17) node_modules/.pnpm/egg@3.27.1/node_modules/egg/config/config.default.js
+                                      ▇ [0ms] - #22 Require(18) config/config.default.js
+                                      ▇ [0ms] - #23 Require(19) node_modules/.pnpm/egg-security@3.6.0/node_modules/egg-security/config/config.local.js
+                                      ▇ [0ms] - #24 Require(20) node_modules/.pnpm/egg-watcher@3.1.1/node_modules/egg-watcher/config/config.local.js
+                                      ▇ [0ms] - #25 Require(21) node_modules/.pnpm/egg-view@2.1.4/node_modules/egg-view/config/config.local.js
+                                      ▇ [0ms] - #26 Require(22) node_modules/.pnpm/egg@3.27.1/node_modules/egg/config/config.local.js
+                                      ▇ [43ms] - #27 Load extend/agent.js
+                                      ▇ [1ms] - #28 Require(23) node_modules/.pnpm/egg-security@3.6.0/node_modules/egg-security/app/extend/agent.js
+                                       ▇ [35ms] - #29 Require(24) node_modules/.pnpm/egg-schedule@4.0.1/node_modules/egg-schedule/app/extend/agent.js
+                                       ▇ [1ms] - #30 Require(25) node_modules/.pnpm/egg-logrotator@3.2.0/node_modules/egg-logrotator/app/extend/agent.js
+                                       ▇ [70ms] - #31 Load extend/context.js
+                                       ▇ [14ms] - #32 Require(26) node_modules/.pnpm/egg-security@3.6.0/node_modules/egg-security/app/extend/context.js
+                                       ▇ [2ms] - #33 Require(27) node_modules/.pnpm/egg-jsonp@2.0.0/node_modules/egg-jsonp/app/extend/context.js
+                                       ▇ [0ms] - #34 Require(28) node_modules/.pnpm/egg-i18n@2.1.1/node_modules/egg-i18n/app/extend/context.js
+                                       ▇ [29ms] - #35 Require(29) node_modules/.pnpm/egg-multipart@3.4.0/node_modules/egg-multipart/app/extend/context.js
+                                       ▇ [19ms] - #36 Require(30) node_modules/.pnpm/egg-view@2.1.4/node_modules/egg-view/app/extend/context.js
+                                       ▇ [1ms] - #37 Require(31) node_modules/.pnpm/egg-validate@2.0.2/node_modules/egg-validate/app/extend/context.js
+                                       ▇ [2ms] - #38 Require(32) node_modules/.pnpm/egg@3.27.1/node_modules/egg/app/extend/context.js
+                                       ▇ [22ms] - #39 Load agent.js
+                                       ▇ [0ms] - #40 Require(33) node_modules/.pnpm/egg-security@3.6.0/node_modules/egg-security/agent.js
+                                       ▇ [0ms] - #41 Require(34) node_modules/.pnpm/egg-onerror@2.4.0/node_modules/egg-onerror/agent.js
+                                       ▇ [3ms] - #42 Require(35) node_modules/.pnpm/egg-watcher@3.1.1/node_modules/egg-watcher/agent.js
+                                       ▇ [2ms] - #43 Require(36) node_modules/.pnpm/egg-schedule@4.0.1/node_modules/egg-schedule/agent.js
+                                       ▇ [14ms] - #44 Require(37) node_modules/.pnpm/egg-development@3.0.0/node_modules/egg-development/agent.js
+                                       ▇ [0ms] - #45 Require(38) node_modules/.pnpm/egg-logrotator@3.2.0/node_modules/egg-logrotator/agent.js
+                                       ▇ [0ms] - #46 Require(39) node_modules/.pnpm/egg-sequelize@6.0.0_mysql2@3.11.3/node_modules/egg-sequelize/agent.js
+                                       ▇ [0ms] - #47 Require(40) node_modules/.pnpm/egg@3.27.1/node_modules/egg/agent.js
+                                       ▇▇▇▇▇▇▇▇▇ [2131ms] - #48 Before Start in node_modules/.pnpm/egg-watcher@3.1.1/node_modules/egg-watcher/lib/init.js:15:14
+                                       ▇▇▇▇▇▇▇▇ [2063ms] - #49 Before Start in node_modules/.pnpm/egg-schedule@4.0.1/node_modules/egg-schedule/agent.js:12:9
+                                       ▇▇▇▇▇▇▇▇▇▇ [2414ms] - #50 Before Start in node_modules/.pnpm/egg-development@3.0.0/node_modules/egg-development/agent.js:8:9
+                                                ▇ [35ms] - #51 Load "Symbol(Model2)" to Application
+                                                ▇ [366ms] - #52 Before Start in node_modules/.pnpm/egg-sequelize@6.0.0_mysql2@3.11.3/node_modules/egg-sequelize/lib/loader.js:39:7
+2024-11-01 17:50:26,088 INFO 31564 [egg:core] dump config after ready, 4ms
+2024-11-01 17:52:21,220 INFO 31604 [egg:logger] init all loggers with options: {"dir":"D:\\game-lottery-generator\\egg-project\\logs\\AlasonEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"AlasonEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false}}
+2024-11-01 17:52:22,353 INFO 31604 [egg:core] dump config after load, 6ms
+2024-11-01 17:52:22,503 INFO 31604 [egg-watcher] Start watching: ["D:\\game-lottery-generator\\egg-project\\app","D:\\game-lottery-generator\\egg-project\\config","D:\\game-lottery-generator\\egg-project\\mocks","D:\\game-lottery-generator\\egg-project\\mocks_proxy","D:\\game-lottery-generator\\egg-project\\app.js"]
+2024-11-01 17:52:22,503 INFO 31604 [egg-watcher] Start watching: "D:\\game-lottery-generator\\egg-project\\app"
+2024-11-01 17:52:22,503 INFO 31604 [egg-watcher] Start watching: "D:\\game-lottery-generator\\egg-project\\config"
+2024-11-01 17:52:22,503 INFO 31604 [egg-watcher] Start watching: "D:\\game-lottery-generator\\egg-project\\mocks"
+2024-11-01 17:52:22,503 INFO 31604 [egg-watcher] Start watching: "D:\\game-lottery-generator\\egg-project\\mocks_proxy"
+2024-11-01 17:52:22,504 INFO 31604 [egg-watcher] Start watching: "D:\\game-lottery-generator\\egg-project\\app.js"
+2024-11-01 17:52:22,504 INFO 31604 [egg-watcher:agent] watcher start success
+2024-11-01 17:52:22,572 INFO 31604 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2024-11-01 17:52:22,585 INFO 31604 egg start timeline:
+▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [10645ms] - #0 Process Start
+                                          ▇▇▇▇▇▇▇ [1829ms] - #1 Application Start
+                                          ▇ [132ms] - #2 Load Plugin
+                                           ▇ [26ms] - #3 Load Config
+                                           ▇ [0ms] - #4 Require(0) config/config.default.js
+                                           ▇ [0ms] - #5 Require(1) node_modules/.pnpm/egg-session@3.3.0/node_modules/egg-session/config/config.default.js
+                                           ▇ [0ms] - #6 Require(2) node_modules/.pnpm/egg-security@3.6.0/node_modules/egg-security/config/config.default.js
+                                           ▇ [1ms] - #7 Require(3) node_modules/.pnpm/egg-jsonp@2.0.0/node_modules/egg-jsonp/config/config.default.js
+                                           ▇ [0ms] - #8 Require(4) node_modules/.pnpm/egg-onerror@2.4.0/node_modules/egg-onerror/config/config.default.js
+                                           ▇ [0ms] - #9 Require(5) node_modules/.pnpm/egg-i18n@2.1.1/node_modules/egg-i18n/config/config.default.js
+                                           ▇ [1ms] - #10 Require(6) node_modules/.pnpm/egg-watcher@3.1.1/node_modules/egg-watcher/config/config.default.js
+                                           ▇ [0ms] - #11 Require(7) node_modules/.pnpm/egg-schedule@4.0.1/node_modules/egg-schedule/config/config.default.js
+                                           ▇ [0ms] - #12 Require(8) node_modules/.pnpm/egg-multipart@3.4.0/node_modules/egg-multipart/config/config.default.js
+                                           ▇ [1ms] - #13 Require(9) node_modules/.pnpm/egg-development@3.0.0/node_modules/egg-development/config/config.default.js
+                                           ▇ [1ms] - #14 Require(10) node_modules/.pnpm/egg-logrotator@3.2.0/node_modules/egg-logrotator/config/config.default.js
+                                           ▇ [0ms] - #15 Require(11) node_modules/.pnpm/egg-static@2.3.1/node_modules/egg-static/config/config.default.js
+                                           ▇ [0ms] - #16 Require(12) node_modules/.pnpm/egg-view@2.1.4/node_modules/egg-view/config/config.default.js
+                                           ▇ [1ms] - #17 Require(13) node_modules/.pnpm/egg-sequelize@6.0.0_mysql2@3.11.3/node_modules/egg-sequelize/config/config.default.js
+                                           ▇ [0ms] - #18 Require(14) node_modules/.pnpm/egg-validate@2.0.2/node_modules/egg-validate/config/config.default.js
+                                           ▇ [0ms] - #19 Require(15) node_modules/.pnpm/egg-cors@2.2.4/node_modules/egg-cors/config/config.default.js
+                                           ▇ [1ms] - #20 Require(16) node_modules/.pnpm/egg-jwt@3.1.7/node_modules/egg-jwt/config/config.default.js
+                                           ▇ [0ms] - #21 Require(17) node_modules/.pnpm/egg@3.27.1/node_modules/egg/config/config.default.js
+                                           ▇ [0ms] - #22 Require(18) config/config.default.js
+                                           ▇ [0ms] - #23 Require(19) node_modules/.pnpm/egg-security@3.6.0/node_modules/egg-security/config/config.local.js
+                                           ▇ [0ms] - #24 Require(20) node_modules/.pnpm/egg-watcher@3.1.1/node_modules/egg-watcher/config/config.local.js
+                                           ▇ [0ms] - #25 Require(21) node_modules/.pnpm/egg-view@2.1.4/node_modules/egg-view/config/config.local.js
+                                           ▇ [0ms] - #26 Require(22) node_modules/.pnpm/egg@3.27.1/node_modules/egg/config/config.local.js
+                                           ▇ [169ms] - #27 Load extend/agent.js
+                                           ▇ [1ms] - #28 Require(23) node_modules/.pnpm/egg-security@3.6.0/node_modules/egg-security/app/extend/agent.js
+                                           ▇ [135ms] - #29 Require(24) node_modules/.pnpm/egg-schedule@4.0.1/node_modules/egg-schedule/app/extend/agent.js
+                                           ▇ [26ms] - #30 Require(25) node_modules/.pnpm/egg-logrotator@3.2.0/node_modules/egg-logrotator/app/extend/agent.js
+                                            ▇ [90ms] - #31 Load extend/context.js
+                                            ▇ [11ms] - #32 Require(26) node_modules/.pnpm/egg-security@3.6.0/node_modules/egg-security/app/extend/context.js
+                                            ▇ [2ms] - #33 Require(27) node_modules/.pnpm/egg-jsonp@2.0.0/node_modules/egg-jsonp/app/extend/context.js
+                                            ▇ [1ms] - #34 Require(28) node_modules/.pnpm/egg-i18n@2.1.1/node_modules/egg-i18n/app/extend/context.js
+                                            ▇ [69ms] - #35 Require(29) node_modules/.pnpm/egg-multipart@3.4.0/node_modules/egg-multipart/app/extend/context.js
+                                            ▇ [1ms] - #36 Require(30) node_modules/.pnpm/egg-view@2.1.4/node_modules/egg-view/app/extend/context.js
+                                            ▇ [0ms] - #37 Require(31) node_modules/.pnpm/egg-validate@2.0.2/node_modules/egg-validate/app/extend/context.js
+                                            ▇ [1ms] - #38 Require(32) node_modules/.pnpm/egg@3.27.1/node_modules/egg/app/extend/context.js
+                                            ▇ [19ms] - #39 Load agent.js
+                                            ▇ [0ms] - #40 Require(33) node_modules/.pnpm/egg-security@3.6.0/node_modules/egg-security/agent.js
+                                            ▇ [0ms] - #41 Require(34) node_modules/.pnpm/egg-onerror@2.4.0/node_modules/egg-onerror/agent.js
+                                            ▇ [3ms] - #42 Require(35) node_modules/.pnpm/egg-watcher@3.1.1/node_modules/egg-watcher/agent.js
+                                            ▇ [1ms] - #43 Require(36) node_modules/.pnpm/egg-schedule@4.0.1/node_modules/egg-schedule/agent.js
+                                            ▇ [8ms] - #44 Require(37) node_modules/.pnpm/egg-development@3.0.0/node_modules/egg-development/agent.js
+                                            ▇ [0ms] - #45 Require(38) node_modules/.pnpm/egg-logrotator@3.2.0/node_modules/egg-logrotator/agent.js
+                                            ▇ [1ms] - #46 Require(39) node_modules/.pnpm/egg-sequelize@6.0.0_mysql2@3.11.3/node_modules/egg-sequelize/agent.js
+                                            ▇ [0ms] - #47 Require(40) node_modules/.pnpm/egg@3.27.1/node_modules/egg/agent.js
+                                            ▇▇▇▇ [1231ms] - #48 Before Start in node_modules/.pnpm/egg-watcher@3.1.1/node_modules/egg-watcher/lib/init.js:15:14
+                                            ▇▇▇▇ [1161ms] - #49 Before Start in node_modules/.pnpm/egg-schedule@4.0.1/node_modules/egg-schedule/agent.js:12:9
+                                            ▇▇▇▇▇ [1291ms] - #50 Before Start in node_modules/.pnpm/egg-development@3.0.0/node_modules/egg-development/agent.js:8:9
+                                                ▇ [14ms] - #51 Load "Symbol(Model2)" to Application
+                                                 ▇ [228ms] - #52 Before Start in node_modules/.pnpm/egg-sequelize@6.0.0_mysql2@3.11.3/node_modules/egg-sequelize/lib/loader.js:39:7
+2024-11-01 17:52:22,585 INFO 31604 [egg:core] dump config after ready, 10ms
+2024-11-01 17:56:31,779 WARN 31604 [agent:development] reload worker because D:\game-lottery-generator\egg-project\app\data\plan.json change
+2024-11-01 17:56:31,519 INFO 31604 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\game-lottery-generator\\egg-project\\app\\data\\plan.json","stat":{"dev":1982040713,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474976714073,"size":1120,"blocks":8,"atimeMs":1730454991516.283,"mtimeMs":1730454991516.283,"ctimeMs":1730454991516.283,"birthtimeMs":1730254042087.7607,"atime":"2024-11-01T09:56:31.516Z","mtime":"2024-11-01T09:56:31.516Z","ctime":"2024-11-01T09:56:31.516Z","birthtime":"2024-10-30T02:07:22.088Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-11-01 17:56:31,521 INFO 31604 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\game-lottery-generator\\egg-project\\app\\data\\plan.json","stat":{"dev":1982040713,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474976714073,"size":1120,"blocks":8,"atimeMs":1730454991516.283,"mtimeMs":1730454991516.283,"ctimeMs":1730454991516.283,"birthtimeMs":1730254042087.7607,"atime":"2024-11-01T09:56:31.516Z","mtime":"2024-11-01T09:56:31.516Z","ctime":"2024-11-01T09:56:31.516Z","birthtime":"2024-10-30T02:07:22.088Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-11-01 17:56:40,721 WARN 31604 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-11-04 16:15:35,382 INFO 85292 [egg:logger] init all loggers with options: {"dir":"D:\\xcTools\\lotteryTools\\egg-project\\logs\\AlasonEgg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"AlasonEgg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false}}
+2024-11-04 16:15:37,964 INFO 85292 [egg:core] dump config after load, 23ms
+2024-11-04 16:15:38,448 INFO 85292 [egg-watcher] Start watching: ["D:\\xcTools\\lotteryTools\\egg-project\\app","D:\\xcTools\\lotteryTools\\egg-project\\config","D:\\xcTools\\lotteryTools\\egg-project\\mocks","D:\\xcTools\\lotteryTools\\egg-project\\mocks_proxy","D:\\xcTools\\lotteryTools\\egg-project\\app.js"]
+2024-11-04 16:15:38,448 INFO 85292 [egg-watcher] Start watching: "D:\\xcTools\\lotteryTools\\egg-project\\app"
+2024-11-04 16:15:38,449 INFO 85292 [egg-watcher] Start watching: "D:\\xcTools\\lotteryTools\\egg-project\\config"
+2024-11-04 16:15:38,449 INFO 85292 [egg-watcher] Start watching: "D:\\xcTools\\lotteryTools\\egg-project\\mocks"
+2024-11-04 16:15:38,449 INFO 85292 [egg-watcher] Start watching: "D:\\xcTools\\lotteryTools\\egg-project\\mocks_proxy"
+2024-11-04 16:15:38,449 INFO 85292 [egg-watcher] Start watching: "D:\\xcTools\\lotteryTools\\egg-project\\app.js"
+2024-11-04 16:15:38,449 INFO 85292 [egg-watcher:agent] watcher start success
+2024-11-04 16:15:38,519 INFO 85292 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2024-11-04 16:15:38,524 INFO 85292 egg start timeline:
+▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [1994ms] - #0 Process Start
+                ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [3999ms] - #1 Application Start
+                ▇ [19ms] - #2 Load Plugin
+                ▇ [32ms] - #3 Load Config
+                ▇ [1ms] - #4 Require(0) config/config.default.js
+                ▇ [0ms] - #5 Require(1) node_modules/.pnpm/egg-session@3.3.0/node_modules/egg-session/config/config.default.js
+                ▇ [1ms] - #6 Require(2) node_modules/.pnpm/egg-security@3.6.0/node_modules/egg-security/config/config.default.js
+                ▇ [1ms] - #7 Require(3) node_modules/.pnpm/egg-jsonp@2.0.0/node_modules/egg-jsonp/config/config.default.js
+                ▇ [0ms] - #8 Require(4) node_modules/.pnpm/egg-onerror@2.4.0/node_modules/egg-onerror/config/config.default.js
+                ▇ [1ms] - #9 Require(5) node_modules/.pnpm/egg-i18n@2.1.1/node_modules/egg-i18n/config/config.default.js
+                ▇ [0ms] - #10 Require(6) node_modules/.pnpm/egg-watcher@3.1.1/node_modules/egg-watcher/config/config.default.js
+                ▇ [1ms] - #11 Require(7) node_modules/.pnpm/egg-schedule@4.0.1/node_modules/egg-schedule/config/config.default.js
+                ▇ [0ms] - #12 Require(8) node_modules/.pnpm/egg-multipart@3.4.0/node_modules/egg-multipart/config/config.default.js
+                ▇ [0ms] - #13 Require(9) node_modules/.pnpm/egg-development@3.0.0/node_modules/egg-development/config/config.default.js
+                ▇ [1ms] - #14 Require(10) node_modules/.pnpm/egg-logrotator@3.2.0/node_modules/egg-logrotator/config/config.default.js
+                ▇ [0ms] - #15 Require(11) node_modules/.pnpm/egg-static@2.3.1/node_modules/egg-static/config/config.default.js
+                ▇ [0ms] - #16 Require(12) node_modules/.pnpm/egg-view@2.1.4/node_modules/egg-view/config/config.default.js
+                ▇ [1ms] - #17 Require(13) node_modules/.pnpm/egg-sequelize@6.0.0_mysql2@3.11.3/node_modules/egg-sequelize/config/config.default.js
+                ▇ [0ms] - #18 Require(14) node_modules/.pnpm/egg-validate@2.0.2/node_modules/egg-validate/config/config.default.js
+                ▇ [1ms] - #19 Require(15) node_modules/.pnpm/egg-cors@2.2.4/node_modules/egg-cors/config/config.default.js
+                ▇ [0ms] - #20 Require(16) node_modules/.pnpm/egg-jwt@3.1.7/node_modules/egg-jwt/config/config.default.js
+                ▇ [0ms] - #21 Require(17) node_modules/.pnpm/egg@3.27.1/node_modules/egg/config/config.default.js
+                 ▇ [0ms] - #22 Require(18) config/config.default.js
+                 ▇ [1ms] - #23 Require(19) node_modules/.pnpm/egg-security@3.6.0/node_modules/egg-security/config/config.local.js
+                 ▇ [0ms] - #24 Require(20) node_modules/.pnpm/egg-watcher@3.1.1/node_modules/egg-watcher/config/config.local.js
+                 ▇ [0ms] - #25 Require(21) node_modules/.pnpm/egg-view@2.1.4/node_modules/egg-view/config/config.local.js
+                 ▇ [0ms] - #26 Require(22) node_modules/.pnpm/egg@3.27.1/node_modules/egg/config/config.local.js
+                 ▇▇ [348ms] - #27 Load extend/agent.js
+                 ▇ [12ms] - #28 Require(23) node_modules/.pnpm/egg-security@3.6.0/node_modules/egg-security/app/extend/agent.js
+                 ▇▇ [318ms] - #29 Require(24) node_modules/.pnpm/egg-schedule@4.0.1/node_modules/egg-schedule/app/extend/agent.js
+                   ▇ [9ms] - #30 Require(25) node_modules/.pnpm/egg-logrotator@3.2.0/node_modules/egg-logrotator/app/extend/agent.js
+                    ▇▇▇ [361ms] - #31 Load extend/context.js
+                    ▇ [115ms] - #32 Require(26) node_modules/.pnpm/egg-security@3.6.0/node_modules/egg-security/app/extend/context.js
+                     ▇ [17ms] - #33 Require(27) node_modules/.pnpm/egg-jsonp@2.0.0/node_modules/egg-jsonp/app/extend/context.js
+                     ▇ [22ms] - #34 Require(28) node_modules/.pnpm/egg-i18n@2.1.1/node_modules/egg-i18n/app/extend/context.js
+                     ▇ [147ms] - #35 Require(29) node_modules/.pnpm/egg-multipart@3.4.0/node_modules/egg-multipart/app/extend/context.js
+                      ▇ [28ms] - #36 Require(30) node_modules/.pnpm/egg-view@2.1.4/node_modules/egg-view/app/extend/context.js
+                      ▇ [7ms] - #37 Require(31) node_modules/.pnpm/egg-validate@2.0.2/node_modules/egg-validate/app/extend/context.js
+                      ▇ [19ms] - #38 Require(32) node_modules/.pnpm/egg@3.27.1/node_modules/egg/app/extend/context.js
+                       ▇ [86ms] - #39 Load agent.js
+                       ▇ [0ms] - #40 Require(33) node_modules/.pnpm/egg-security@3.6.0/node_modules/egg-security/agent.js
+                       ▇ [0ms] - #41 Require(34) node_modules/.pnpm/egg-onerror@2.4.0/node_modules/egg-onerror/agent.js
+                       ▇ [9ms] - #42 Require(35) node_modules/.pnpm/egg-watcher@3.1.1/node_modules/egg-watcher/agent.js
+                       ▇ [9ms] - #43 Require(36) node_modules/.pnpm/egg-schedule@4.0.1/node_modules/egg-schedule/agent.js
+                       ▇ [63ms] - #44 Require(37) node_modules/.pnpm/egg-development@3.0.0/node_modules/egg-development/agent.js
+                       ▇ [0ms] - #45 Require(38) node_modules/.pnpm/egg-logrotator@3.2.0/node_modules/egg-logrotator/agent.js
+                       ▇ [0ms] - #46 Require(39) node_modules/.pnpm/egg-sequelize@6.0.0_mysql2@3.11.3/node_modules/egg-sequelize/agent.js
+                       ▇ [0ms] - #47 Require(40) node_modules/.pnpm/egg@3.27.1/node_modules/egg/agent.js
+                       ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [3064ms] - #48 Before Start in node_modules/.pnpm/egg-watcher@3.1.1/node_modules/egg-watcher/lib/init.js:15:14
+                       ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [2991ms] - #49 Before Start in node_modules/.pnpm/egg-schedule@4.0.1/node_modules/egg-schedule/agent.js:12:9
+                       ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [3135ms] - #50 Before Start in node_modules/.pnpm/egg-development@3.0.0/node_modules/egg-development/agent.js:8:9
+                                             ▇ [13ms] - #51 Load "Symbol(Model2)" to Application
+                                             ▇▇▇▇ [579ms] - #52 Before Start in node_modules/.pnpm/egg-sequelize@6.0.0_mysql2@3.11.3/node_modules/egg-sequelize/lib/loader.js:39:7
+2024-11-04 16:15:38,524 INFO 85292 [egg:core] dump config after ready, 3ms

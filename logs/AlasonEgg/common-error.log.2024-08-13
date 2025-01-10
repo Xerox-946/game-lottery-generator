@@ -1,0 +1,90 @@
+2024-08-13 09:20:27,661 ERROR 162480 [-/127.0.0.1/-/47ms POST /lottery/lotteryData] nodejs.SequelizeDatabaseError: Undeclared variable: NaN
+    at Query.run (D:\testTools\egg-project\node_modules\.pnpm\sequelize@6.37.3_mysql2@3.11.0\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at D:\testTools\egg-project\node_modules\.pnpm\sequelize@6.37.3_mysql2@3.11.0\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async LotteryData.list (D:\testTools\egg-project\app\service\lotteryData.js:9:25)
+    at async LotteryDataController.getList (D:\testTools\egg-project\app\controller\lotteryData.js:15:33)
+    at async D:\testTools\egg-project\node_modules\.pnpm\egg-development@3.0.0\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_SP_UNDECLARED_VAR","errno":1327,"sqlState":"42000","sqlMessage":"Undeclared variable: NaN","sql":"SELECT * FROM `sys_lottery_data` limit NaN,undefined"}
+original: {"code":"ER_SP_UNDECLARED_VAR","errno":1327,"sqlState":"42000","sqlMessage":"Undeclared variable: NaN","sql":"SELECT * FROM `sys_lottery_data` limit NaN,undefined"}
+sql: "SELECT * FROM `sys_lottery_data` limit NaN,undefined"
+parameters: {}
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 162480
+hostname: DESKTOP-K1T6R27
+
+2024-08-13 09:42:39,653 ERROR 135752 [-/127.0.0.1/-/752ms POST /lottery/heroData] nodejs.ReferenceError: qualityList is not defined
+    at LotteryDataController.getHeroDataList (D:\testTools\egg-project\app\controller\lotteryData.js:59:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\testTools\egg-project\node_modules\.pnpm\egg-development@3.0.0\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\testTools\egg-project\node_modules\.pnpm\koa-session@6.4.0\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\testTools\egg-project\node_modules\.pnpm\koa-bodyparser@4.4.1\node_modules\koa-bodyparser\index.js:78:5)
+    at async D:\testTools\egg-project\node_modules\.pnpm\koa-static-cache@5.1.4\node_modules\koa-static-cache\index.js:39:63
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 135752
+hostname: DESKTOP-K1T6R27
+
+2024-08-13 09:42:54,713 ERROR 135752 [-/127.0.0.1/-/836ms POST /lottery/heroData] nodejs.ReferenceError: qualityList is not defined
+    at LotteryDataController.getHeroDataList (D:\testTools\egg-project\app\controller\lotteryData.js:59:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\testTools\egg-project\node_modules\.pnpm\egg-development@3.0.0\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\testTools\egg-project\node_modules\.pnpm\koa-session@6.4.0\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\testTools\egg-project\node_modules\.pnpm\koa-bodyparser@4.4.1\node_modules\koa-bodyparser\index.js:78:5)
+    at async D:\testTools\egg-project\node_modules\.pnpm\koa-static-cache@5.1.4\node_modules\koa-static-cache\index.js:39:63
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 135752
+hostname: DESKTOP-K1T6R27
+
+2024-08-13 15:01:23,331 ERROR 145140 [-/127.0.0.1/-/10ms POST /lottery/lotteryData] nodejs.SequelizeDatabaseError: Undeclared variable: NaN
+    at Query.run (D:\testTools\egg-project\node_modules\.pnpm\sequelize@6.37.3_mysql2@3.11.0\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at D:\testTools\egg-project\node_modules\.pnpm\sequelize@6.37.3_mysql2@3.11.0\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async LotteryData.list (D:\testTools\egg-project\app\service\lotteryData.js:9:25)
+    at async LotteryDataController.getList (D:\testTools\egg-project\app\controller\lotteryData.js:15:33)
+    at async D:\testTools\egg-project\node_modules\.pnpm\egg-development@3.0.0\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_SP_UNDECLARED_VAR","errno":1327,"sqlState":"42000","sqlMessage":"Undeclared variable: NaN","sql":"SELECT * FROM `sys_lottery_data` limit NaN,undefined"}
+original: {"code":"ER_SP_UNDECLARED_VAR","errno":1327,"sqlState":"42000","sqlMessage":"Undeclared variable: NaN","sql":"SELECT * FROM `sys_lottery_data` limit NaN,undefined"}
+sql: "SELECT * FROM `sys_lottery_data` limit NaN,undefined"
+parameters: {}
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 145140
+hostname: DESKTOP-K1T6R27
+
+2024-08-13 15:03:53,128 ERROR 144704 [-/127.0.0.1/-/21ms POST /lottery/lotteryData] nodejs.SequelizeDatabaseError: Undeclared variable: NaN
+    at Query.run (D:\testTools\egg-project\node_modules\.pnpm\sequelize@6.37.3_mysql2@3.11.0\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at D:\testTools\egg-project\node_modules\.pnpm\sequelize@6.37.3_mysql2@3.11.0\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async LotteryData.list (D:\testTools\egg-project\app\service\lotteryData.js:15:25)
+    at async LotteryDataController.getList (D:\testTools\egg-project\app\controller\lotteryData.js:17:31)
+    at async D:\testTools\egg-project\node_modules\.pnpm\egg-development@3.0.0\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_SP_UNDECLARED_VAR","errno":1327,"sqlState":"42000","sqlMessage":"Undeclared variable: NaN","sql":"SELECT * FROM `sys_lottery_data` limit NaN,undefined"}
+original: {"code":"ER_SP_UNDECLARED_VAR","errno":1327,"sqlState":"42000","sqlMessage":"Undeclared variable: NaN","sql":"SELECT * FROM `sys_lottery_data` limit NaN,undefined"}
+sql: "SELECT * FROM `sys_lottery_data` limit NaN,undefined"
+parameters: {}
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 144704
+hostname: DESKTOP-K1T6R27
+

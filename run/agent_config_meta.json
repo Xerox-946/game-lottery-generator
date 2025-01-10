@@ -1,0 +1,339 @@
+{
+  "keys": "D:\\xcTools\\lotteryTools\\egg-project\\config\\config.default.js",
+  "middleware": "D:\\xcTools\\lotteryTools\\egg-project\\config\\config.default.js",
+  "sequelize": {
+    "datasources": "D:\\xcTools\\lotteryTools\\egg-project\\config\\config.default.js",
+    "dialect": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-sequelize@6.0.0_mysql2@3.11.3\\node_modules\\egg-sequelize\\config\\config.default.js",
+    "database": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-sequelize@6.0.0_mysql2@3.11.3\\node_modules\\egg-sequelize\\config\\config.default.js",
+    "host": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-sequelize@6.0.0_mysql2@3.11.3\\node_modules\\egg-sequelize\\config\\config.default.js",
+    "port": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-sequelize@6.0.0_mysql2@3.11.3\\node_modules\\egg-sequelize\\config\\config.default.js",
+    "username": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-sequelize@6.0.0_mysql2@3.11.3\\node_modules\\egg-sequelize\\config\\config.default.js",
+    "password": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-sequelize@6.0.0_mysql2@3.11.3\\node_modules\\egg-sequelize\\config\\config.default.js"
+  },
+  "security": {
+    "csrf": {
+      "enable": "D:\\xcTools\\lotteryTools\\egg-project\\config\\config.default.js",
+      "ignoreJSON": "D:\\xcTools\\lotteryTools\\egg-project\\config\\config.default.js",
+      "type": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-security@3.6.0\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-security@3.6.0\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-security@3.6.0\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-security@3.6.0\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-security@3.6.0\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-security@3.6.0\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-security@3.6.0\\node_modules\\egg-security\\config\\config.default.js",
+      "rotateWhenInvalid": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-security@3.6.0\\node_modules\\egg-security\\config\\config.default.js",
+      "supportedRequests": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-security@3.6.0\\node_modules\\egg-security\\config\\config.default.js",
+      "refererWhiteList": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-security@3.6.0\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieOptions": {
+        "signed": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-security@3.6.0\\node_modules\\egg-security\\config\\config.default.js"
+      }
+    },
+    "domainWhiteList": "D:\\xcTools\\lotteryTools\\egg-project\\config\\config.default.js",
+    "protocolWhiteList": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-security@3.6.0\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-security@3.6.0\\node_modules\\egg-security\\config\\config.default.js",
+    "xframe": {
+      "enable": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-security@3.6.0\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-security@3.6.0\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-security@3.6.0\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-security@3.6.0\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-security@3.6.0\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-security@3.6.0\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-security@3.6.0\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-security@3.6.0\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-security@3.6.0\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-security@3.6.0\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-security@3.6.0\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-security@3.6.0\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-security@3.6.0\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-security@3.6.0\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-security@3.6.0\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-security@3.6.0\\node_modules\\egg-security\\config\\config.default.js",
+      "ipExceptionList": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-security@3.6.0\\node_modules\\egg-security\\config\\config.default.js",
+      "hostnameExceptionList": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-security@3.6.0\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-security@3.6.0\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "jwt": {
+    "secret": "D:\\xcTools\\lotteryTools\\egg-project\\config\\config.default.js",
+    "enable": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-jwt@3.1.7\\node_modules\\egg-jwt\\config\\config.default.js"
+  },
+  "cors": {
+    "origin": "D:\\xcTools\\lotteryTools\\egg-project\\config\\config.default.js",
+    "allowMethods": "D:\\xcTools\\lotteryTools\\egg-project\\config\\config.default.js"
+  },
+  "session": {
+    "maxAge": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-session@3.3.0\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-session@3.3.0\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-session@3.3.0\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-session@3.3.0\\node_modules\\egg-session\\config\\config.default.js",
+    "logValue": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-session@3.3.0\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "helper": {
+    "shtml": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-security@3.6.0\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-jsonp@2.0.0\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-jsonp@2.0.0\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-jsonp@2.0.0\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-onerror@2.4.0\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-onerror@2.4.0\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-onerror@2.4.0\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-i18n@2.1.1\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-i18n@2.1.1\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-i18n@2.1.1\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-i18n@2.1.1\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieDomain": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-i18n@2.1.1\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-i18n@2.1.1\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-watcher@3.1.1\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-watcher@3.1.1\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-watcher@3.1.1\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-schedule@4.0.1\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-schedule@4.0.1\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-schedule@4.0.1\\node_modules\\egg-schedule\\config\\config.default.js"
+  },
+  "multipart": {
+    "mode": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-multipart@3.4.0\\node_modules\\egg-multipart\\config\\config.default.js",
+    "autoFields": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-multipart@3.4.0\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-multipart@3.4.0\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultParamCharset": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-multipart@3.4.0\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-multipart@3.4.0\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-multipart@3.4.0\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-multipart@3.4.0\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-multipart@3.4.0\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-multipart@3.4.0\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-multipart@3.4.0\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-multipart@3.4.0\\node_modules\\egg-multipart\\config\\config.default.js",
+    "allowArrayField": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-multipart@3.4.0\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-multipart@3.4.0\\node_modules\\egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-multipart@3.4.0\\node_modules\\egg-multipart\\config\\config.default.js",
+      "disable": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-multipart@3.4.0\\node_modules\\egg-multipart\\config\\config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-development@3.0.0\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-development@3.0.0\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-development@3.0.0\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-development@3.0.0\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-development@3.0.0\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideIgnore": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-development@3.0.0\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-logrotator@3.2.0\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-logrotator@3.2.0\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-logrotator@3.2.0\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-logrotator@3.2.0\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-logrotator@3.2.0\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-logrotator@3.2.0\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-logrotator@3.2.0\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-static@2.3.1\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-static@2.3.1\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-static@2.3.1\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-static@2.3.1\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-static@2.3.1\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-static@2.3.1\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "view": {
+    "root": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-view@2.1.4\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-view@2.1.4\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-view@2.1.4\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-view@2.1.4\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-view@2.1.4\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "validate": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg-validate@2.0.2\\node_modules\\egg-validate\\config\\config.default.js",
+  "env": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+  "name": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+  "cookies": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+  "maxIpsCount": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+  "maxProxyCount": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+    "version": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+    "description": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+    "private": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+    "egg": {
+      "declarations": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js"
+    },
+    "dependencies": {
+      "axios": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+      "egg-cors": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+      "egg-jwt": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+      "egg-passport": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+      "egg-scripts": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+      "egg-sequelize": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+      "egg-validate": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+      "fs": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+      "mysql2": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+      "node-fetch": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+      "path": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+      "egg-ci": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+      "egg-mock": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+      "eslint": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+      "eslint-config-egg": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+      "sequelize-cli": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js"
+    },
+    "engines": {
+      "node": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js"
+    },
+    "scripts": {
+      "start": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+      "stop": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+      "dev": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+      "debug": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+      "test": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+      "test-local": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+      "cov": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+      "lint": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+      "ci": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+      "m": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js"
+    },
+    "ci": {
+      "version": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+      "type": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js"
+    },
+    "repository": {
+      "type": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+      "url": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js"
+    },
+    "author": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+    "license": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js"
+  },
+  "baseDir": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+    "timing": {
+      "slowBootActionMinDuration": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "confusedConfigurations": {
+    "bodyparser": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+    "cacheControl": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+    "textLimit": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+    "strict": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+      "depth": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js"
+    },
+    "onerror": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js"
+  },
+  "logger": {
+    "dir": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+    "env": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+    "level": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+    "enablePerformanceTimer": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+    "enableFastContextLogger": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js"
+    },
+    "useHttpClientNext": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js"
+  },
+  "meta": {
+    "enable": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+    "logging": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+      "port": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js"
+  },
+  "onClientError": "D:\\xcTools\\lotteryTools\\egg-project\\node_modules\\.pnpm\\egg@3.27.1\\node_modules\\egg\\config\\config.default.js"
+}

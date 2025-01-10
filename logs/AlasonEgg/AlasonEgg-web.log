@@ -1,0 +1,178 @@
+2024-08-15 09:14:53,920 INFO 161508 [-/127.0.0.1/-/939ms POST /getHero] [egg-sequelize](26ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-15 09:14:54,014 INFO 161508 [-/127.0.0.1/-/235ms POST /lottery/lotteryPlan] [egg-sequelize](23ms) Executed (default): SELECT `PlanID`, `Name`, `Desc`, `ClassID`, `MergeIDs` FROM `sys_lottery_plan` AS `sys_lottery_plan`;
+2024-08-15 10:55:04,058 INFO 161508 [-/192.168.184.103/-/93ms POST /plan/updatePlan] JSON file written successfully
+2024-08-15 10:55:04,306 INFO 161508 [-/192.168.184.103/-/453ms POST /getHero] [egg-sequelize](32ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-15 10:55:04,474 INFO 161508 [-/192.168.184.103/-/511ms POST /lottery/lotteryPlan] [egg-sequelize](199ms) Executed (default): SELECT `PlanID`, `Name`, `Desc`, `ClassID`, `MergeIDs` FROM `sys_lottery_plan` AS `sys_lottery_plan`;
+2024-08-15 10:55:04,717 INFO 161508 [-/192.168.184.103/-/202ms POST /lottery/qualityData] [egg-sequelize](137ms) Executed (default): SELECT Quality, COUNT(*) AS Count,IsBd FROM `sys_lottery_data` GROUP BY Quality,IsBd
+2024-08-15 10:55:04,798 INFO 161508 [-/192.168.184.103/-/217ms POST /lottery/heroData] [egg-sequelize](121ms) Executed (default): SELECT HeroID, COUNT(*) AS Count,IsBd,Odd,BdOdd,Quality FROM `sys_lottery_data` GROUP BY HeroID,IsBd
+2024-08-15 10:55:04,814 INFO 161508 [-/192.168.184.103/-/137ms POST /lottery/lotteryData] [egg-sequelize](97ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 0,10
+2024-08-15 10:55:17,054 INFO 67968 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-15 10:55:17,068 INFO 67968 [egg-sequelize](15ms) Executed (default): SELECT 1+1 AS result
+2024-08-15 10:55:17,080 INFO 67968 [egg-sequelize](1ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-15 10:55:17,083 INFO 67968 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-15 10:55:19,007 INFO 67968 [-/192.168.184.103/-/39ms POST /getHero] [egg-sequelize](2ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-15 10:55:19,018 INFO 67968 [-/192.168.184.103/-/3ms POST /plan/updatePlan] JSON file written successfully
+2024-08-15 10:55:19,019 INFO 67968 [-/192.168.184.103/-/6ms POST /lottery/lotteryPlan] [egg-sequelize](4ms) Executed (default): SELECT `PlanID`, `Name`, `Desc`, `ClassID`, `MergeIDs` FROM `sys_lottery_plan` AS `sys_lottery_plan`;
+2024-08-15 10:55:21,457 INFO 162408 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2024-08-15 10:55:21,458 INFO 162408 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2024-08-15 10:55:21,486 INFO 162408 [egg-sequelize](3ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-15 10:55:21,489 INFO 162408 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-15 10:55:21,942 INFO 162408 [-/192.168.184.103/-/5ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 0,10
+2024-08-15 10:55:22,035 INFO 162408 [-/192.168.184.103/-/120ms POST /lottery/qualityData] [egg-sequelize](105ms) Executed (default): SELECT Quality, COUNT(*) AS Count,IsBd FROM `sys_lottery_data` GROUP BY Quality,IsBd
+2024-08-15 10:55:22,059 INFO 162408 [-/192.168.184.103/-/125ms POST /lottery/heroData] [egg-sequelize](120ms) Executed (default): SELECT HeroID, COUNT(*) AS Count,IsBd,Odd,BdOdd,Quality FROM `sys_lottery_data` GROUP BY HeroID,IsBd
+2024-08-15 10:55:33,158 INFO 162408 [-/192.168.184.103/-/2ms POST /plan/updatePlan] JSON file written successfully
+2024-08-15 10:55:33,164 INFO 162408 [-/192.168.184.103/-/15ms POST /getHero] [egg-sequelize](3ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-15 10:55:33,170 INFO 162408 [-/192.168.184.103/-/16ms POST /lottery/lotteryPlan] [egg-sequelize](8ms) Executed (default): SELECT `PlanID`, `Name`, `Desc`, `ClassID`, `MergeIDs` FROM `sys_lottery_plan` AS `sys_lottery_plan`;
+2024-08-15 10:55:35,082 INFO 124692 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-15 10:55:35,085 INFO 124692 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-15 10:55:35,096 INFO 124692 [egg-sequelize](3ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-15 10:55:35,100 INFO 124692 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-15 10:55:35,805 INFO 124692 [-/192.168.184.103/-/6ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 0,10
+2024-08-15 10:55:35,862 INFO 124692 [-/192.168.184.103/-/78ms POST /lottery/qualityData] [egg-sequelize](67ms) Executed (default): SELECT Quality, COUNT(*) AS Count,IsBd FROM `sys_lottery_data` GROUP BY Quality,IsBd
+2024-08-15 10:55:35,885 INFO 124692 [-/192.168.184.103/-/89ms POST /lottery/heroData] [egg-sequelize](82ms) Executed (default): SELECT HeroID, COUNT(*) AS Count,IsBd,Odd,BdOdd,Quality FROM `sys_lottery_data` GROUP BY HeroID,IsBd
+2024-08-15 10:55:42,188 INFO 124692 [-/192.168.184.103/-/3ms POST /plan/updatePlan] JSON file written successfully
+2024-08-15 10:55:42,190 INFO 124692 [-/192.168.184.103/-/9ms POST /getHero] [egg-sequelize](6ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-15 10:55:42,195 INFO 124692 [-/192.168.184.103/-/11ms POST /lottery/lotteryPlan] [egg-sequelize](10ms) Executed (default): SELECT `PlanID`, `Name`, `Desc`, `ClassID`, `MergeIDs` FROM `sys_lottery_plan` AS `sys_lottery_plan`;
+2024-08-15 10:55:42,691 INFO 124692 [-/192.168.184.103/-/1ms POST /lottery/lotteryData] [egg-sequelize](0ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 0,10
+2024-08-15 10:55:42,701 INFO 124692 [-/192.168.184.103/-/13ms POST /lottery/qualityData] [egg-sequelize](12ms) Executed (default): SELECT Quality, COUNT(*) AS Count,IsBd FROM `sys_lottery_data` GROUP BY Quality,IsBd
+2024-08-15 10:55:42,703 INFO 124692 [-/192.168.184.103/-/14ms POST /lottery/heroData] [egg-sequelize](13ms) Executed (default): SELECT HeroID, COUNT(*) AS Count,IsBd,Odd,BdOdd,Quality FROM `sys_lottery_data` GROUP BY HeroID,IsBd
+2024-08-15 10:55:44,115 INFO 155836 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-15 10:55:44,120 INFO 155836 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-15 10:55:44,146 INFO 155836 [egg-sequelize](2ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-15 10:55:44,150 INFO 155836 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-15 10:56:03,668 INFO 155836 [-/192.168.15.103/-/13ms POST /getHero] [egg-sequelize](5ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-15 10:56:03,675 INFO 155836 [-/192.168.15.103/-/16ms POST /lottery/lotteryPlan] [egg-sequelize](12ms) Executed (default): SELECT `PlanID`, `Name`, `Desc`, `ClassID`, `MergeIDs` FROM `sys_lottery_plan` AS `sys_lottery_plan`;
+2024-08-15 10:56:07,651 INFO 155836 [-/192.168.184.103/-/2ms POST /plan/updatePlan] JSON file written successfully
+2024-08-15 10:56:07,653 INFO 155836 [-/192.168.184.103/-/6ms POST /getHero] [egg-sequelize](5ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-15 10:56:07,657 INFO 155836 [-/192.168.184.103/-/9ms POST /lottery/lotteryPlan] [egg-sequelize](8ms) Executed (default): SELECT `PlanID`, `Name`, `Desc`, `ClassID`, `MergeIDs` FROM `sys_lottery_plan` AS `sys_lottery_plan`;
+2024-08-15 10:56:08,179 INFO 155836 [-/192.168.184.103/-/6ms POST /lottery/lotteryData] [egg-sequelize](2ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 0,10
+2024-08-15 10:56:08,182 INFO 155836 [-/192.168.184.103/-/11ms POST /lottery/qualityData] [egg-sequelize](10ms) Executed (default): SELECT Quality, COUNT(*) AS Count,IsBd FROM `sys_lottery_data` GROUP BY Quality,IsBd
+2024-08-15 10:56:08,185 INFO 155836 [-/192.168.184.103/-/13ms POST /lottery/heroData] [egg-sequelize](12ms) Executed (default): SELECT HeroID, COUNT(*) AS Count,IsBd,Odd,BdOdd,Quality FROM `sys_lottery_data` GROUP BY HeroID,IsBd
+2024-08-15 10:56:09,572 INFO 153556 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-15 10:56:09,574 INFO 153556 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2024-08-15 10:56:09,609 INFO 153556 [egg-sequelize](2ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-15 10:56:09,613 INFO 153556 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-15 10:56:29,840 INFO 153556 [-/192.168.15.103/-/4ms POST /plan/pushPlan] JSON file written successfully
+2024-08-15 10:56:31,707 INFO 157048 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-15 10:56:31,710 INFO 157048 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-15 10:56:31,732 INFO 157048 [egg-sequelize](1ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-15 10:56:31,736 INFO 157048 [egg-sequelize](1ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-15 10:56:34,736 INFO 157048 [-/192.168.15.103/-/9ms POST /lottery/lotteryData] [egg-sequelize](2ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 0,10
+2024-08-15 10:56:34,796 INFO 157048 [-/192.168.15.103/-/82ms POST /lottery/qualityData] [egg-sequelize](71ms) Executed (default): SELECT Quality, COUNT(*) AS Count,IsBd FROM `sys_lottery_data` GROUP BY Quality,IsBd
+2024-08-15 10:56:34,828 INFO 157048 [-/192.168.15.103/-/103ms POST /lottery/heroData] [egg-sequelize](96ms) Executed (default): SELECT HeroID, COUNT(*) AS Count,IsBd,Odd,BdOdd,Quality FROM `sys_lottery_data` GROUP BY HeroID,IsBd
+2024-08-15 10:58:48,748 INFO 157048 [-/192.168.15.103/-/6ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 40,10
+2024-08-15 10:58:50,857 INFO 157048 [-/192.168.15.103/-/3ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 0,10
+2024-08-15 10:58:52,173 INFO 157048 [-/192.168.15.103/-/2ms POST /lottery/lotteryData] [egg-sequelize](0ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 10,10
+2024-08-15 10:58:53,061 INFO 157048 [-/192.168.15.103/-/2ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 20,10
+2024-08-15 10:58:53,589 INFO 157048 [-/192.168.15.103/-/1ms POST /lottery/lotteryData] [egg-sequelize](0ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 30,10
+2024-08-15 10:58:54,073 INFO 157048 [-/192.168.15.103/-/1ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 40,10
+2024-08-15 10:58:54,420 INFO 157048 [-/192.168.15.103/-/3ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 50,10
+2024-08-15 10:58:54,814 INFO 157048 [-/192.168.15.103/-/2ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 60,10
+2024-08-15 10:58:55,013 INFO 157048 [-/192.168.15.103/-/2ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 70,10
+2024-08-15 10:58:55,207 INFO 157048 [-/192.168.15.103/-/2ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 80,10
+2024-08-15 10:58:55,390 INFO 157048 [-/192.168.15.103/-/1ms POST /lottery/lotteryData] [egg-sequelize](0ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 90,10
+2024-08-15 10:58:55,557 INFO 157048 [-/192.168.15.103/-/1ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 100,10
+2024-08-15 10:58:55,718 INFO 157048 [-/192.168.15.103/-/2ms POST /lottery/lotteryData] [egg-sequelize](2ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 110,10
+2024-08-15 10:58:56,208 INFO 157048 [-/192.168.15.103/-/42ms POST /lottery/lotteryData] [egg-sequelize](41ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 99990,10
+2024-08-15 10:58:57,896 INFO 157048 [-/192.168.15.103/-/45ms POST /lottery/lotteryData] [egg-sequelize](44ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 99980,10
+2024-08-15 10:58:58,396 INFO 157048 [-/192.168.15.103/-/1ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 0,10
+2024-08-15 11:00:17,478 INFO 157048 [-/192.168.15.103/-/11ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 10,10
+2024-08-15 11:00:18,339 INFO 157048 [-/192.168.15.103/-/2ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 20,10
+2024-08-15 11:00:19,085 INFO 157048 [-/192.168.15.103/-/1ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 30,10
+2024-08-15 11:00:20,047 INFO 157048 [-/192.168.15.103/-/2ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 40,10
+2024-08-15 11:00:20,542 INFO 157048 [-/192.168.15.103/-/2ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 50,10
+2024-08-15 11:00:21,533 INFO 157048 [-/192.168.15.103/-/2ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 60,10
+2024-08-15 11:00:22,245 INFO 157048 [-/192.168.15.103/-/2ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 70,10
+2024-08-15 11:00:22,791 INFO 157048 [-/192.168.15.103/-/2ms POST /lottery/lotteryData] [egg-sequelize](0ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 80,10
+2024-08-15 11:00:23,244 INFO 157048 [-/192.168.15.103/-/2ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 90,10
+2024-08-15 11:00:30,145 INFO 157048 [-/192.168.15.103/-/2ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 100,10
+2024-08-15 11:00:30,589 INFO 157048 [-/192.168.15.103/-/1ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 110,10
+2024-08-15 11:00:31,005 INFO 157048 [-/192.168.15.103/-/2ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 120,10
+2024-08-15 11:00:31,456 INFO 157048 [-/192.168.15.103/-/2ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 130,10
+2024-08-15 11:00:31,846 INFO 157048 [-/192.168.15.103/-/2ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 140,10
+2024-08-15 11:00:32,180 INFO 157048 [-/192.168.15.103/-/1ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 150,10
+2024-08-15 11:00:32,583 INFO 157048 [-/192.168.15.103/-/3ms POST /lottery/lotteryData] [egg-sequelize](2ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 160,10
+2024-08-15 11:00:32,853 INFO 157048 [-/192.168.15.103/-/2ms POST /lottery/lotteryData] [egg-sequelize](2ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 170,10
+2024-08-15 11:00:33,048 INFO 157048 [-/192.168.15.103/-/5ms POST /lottery/lotteryData] [egg-sequelize](3ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 180,10
+2024-08-15 11:00:33,229 INFO 157048 [-/192.168.15.103/-/2ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 190,10
+2024-08-15 11:00:33,429 INFO 157048 [-/192.168.15.103/-/2ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 200,10
+2024-08-15 11:00:33,621 INFO 157048 [-/192.168.15.103/-/2ms POST /lottery/lotteryData] [egg-sequelize](2ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 210,10
+2024-08-15 11:00:33,796 INFO 157048 [-/192.168.15.103/-/1ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 220,10
+2024-08-15 11:00:33,995 INFO 157048 [-/192.168.15.103/-/1ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 230,10
+2024-08-15 11:00:34,165 INFO 157048 [-/192.168.15.103/-/2ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 240,10
+2024-08-15 11:00:34,347 INFO 157048 [-/192.168.15.103/-/2ms POST /lottery/lotteryData] [egg-sequelize](0ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 250,10
+2024-08-15 11:00:34,533 INFO 157048 [-/192.168.15.103/-/1ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 260,10
+2024-08-15 11:00:34,708 INFO 157048 [-/192.168.15.103/-/1ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 270,10
+2024-08-15 11:00:34,877 INFO 157048 [-/192.168.15.103/-/1ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 280,10
+2024-08-15 11:00:35,069 INFO 157048 [-/192.168.15.103/-/2ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 290,10
+2024-08-15 11:00:35,237 INFO 157048 [-/192.168.15.103/-/1ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 300,10
+2024-08-15 11:00:35,389 INFO 157048 [-/192.168.15.103/-/2ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 310,10
+2024-08-15 11:00:35,604 INFO 157048 [-/192.168.15.103/-/1ms POST /lottery/lotteryData] [egg-sequelize](0ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 320,10
+2024-08-15 11:00:35,718 INFO 157048 [-/192.168.15.103/-/2ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 330,10
+2024-08-15 11:00:35,916 INFO 157048 [-/192.168.15.103/-/1ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 340,10
+2024-08-15 11:00:36,085 INFO 157048 [-/192.168.15.103/-/2ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 350,10
+2024-08-15 11:00:36,269 INFO 157048 [-/192.168.15.103/-/2ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 360,10
+2024-08-15 11:00:36,444 INFO 157048 [-/192.168.15.103/-/1ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 370,10
+2024-08-15 11:00:36,637 INFO 157048 [-/192.168.15.103/-/2ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 380,10
+2024-08-15 11:00:36,815 INFO 157048 [-/192.168.15.103/-/1ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 390,10
+2024-08-15 11:00:36,974 INFO 157048 [-/192.168.15.103/-/1ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 400,10
+2024-08-15 11:00:37,133 INFO 157048 [-/192.168.15.103/-/2ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 410,10
+2024-08-15 11:00:37,308 INFO 157048 [-/192.168.15.103/-/2ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 420,10
+2024-08-15 11:00:37,484 INFO 157048 [-/192.168.15.103/-/2ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 430,10
+2024-08-15 11:00:37,662 INFO 157048 [-/192.168.15.103/-/3ms POST /lottery/lotteryData] [egg-sequelize](2ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 440,10
+2024-08-15 11:00:37,844 INFO 157048 [-/192.168.15.103/-/2ms POST /lottery/lotteryData] [egg-sequelize](1ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 450,10
+2024-08-15 11:03:39,737 INFO 157048 [-/192.168.15.103/-/237ms POST /lottery/lotteryData] [egg-sequelize](231ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-15 11:06:15,416 INFO 157048 [-/192.168.15.103/-/10ms POST /getHero] [egg-sequelize](2ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-15 11:06:15,423 INFO 157048 [-/192.168.15.103/-/2ms POST /lottery/lotteryPlan] [egg-sequelize](2ms) Executed (default): SELECT `PlanID`, `Name`, `Desc`, `ClassID`, `MergeIDs` FROM `sys_lottery_plan` AS `sys_lottery_plan`;
+2024-08-15 11:06:28,121 INFO 157048 [-/192.168.15.103/-/3ms POST /plan/pushPlan] JSON file written successfully
+2024-08-15 11:06:37,703 INFO 152908 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-15 11:06:37,705 INFO 152908 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2024-08-15 11:06:37,739 INFO 152908 [egg-sequelize](3ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-15 11:06:37,743 INFO 152908 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-15 11:06:43,326 INFO 152908 [-/192.168.15.103/-/8ms POST /getHero] [egg-sequelize](3ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-15 11:06:43,332 INFO 152908 [-/192.168.15.103/-/9ms POST /lottery/lotteryPlan] [egg-sequelize](3ms) Executed (default): SELECT `PlanID`, `Name`, `Desc`, `ClassID`, `MergeIDs` FROM `sys_lottery_plan` AS `sys_lottery_plan`;
+2024-08-15 11:06:56,241 INFO 152908 [-/192.168.15.103/-/3ms POST /plan/updatePlan] JSON file written successfully
+2024-08-15 11:06:56,246 INFO 152908 [-/192.168.15.103/-/12ms POST /getHero] [egg-sequelize](2ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-15 11:06:56,250 INFO 152908 [-/192.168.15.103/-/14ms POST /lottery/lotteryPlan] [egg-sequelize](5ms) Executed (default): SELECT `PlanID`, `Name`, `Desc`, `ClassID`, `MergeIDs` FROM `sys_lottery_plan` AS `sys_lottery_plan`;
+2024-08-15 11:06:58,184 INFO 164044 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-15 11:06:58,188 INFO 164044 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-15 11:06:58,208 INFO 164044 [egg-sequelize](2ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-15 11:06:58,211 INFO 164044 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-15 11:07:51,612 INFO 164044 [-/192.168.15.103/-/2ms POST /plan/updatePlan] JSON file written successfully
+2024-08-15 11:07:51,621 INFO 164044 [-/192.168.15.103/-/17ms POST /getHero] [egg-sequelize](4ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-15 11:07:51,627 INFO 164044 [-/192.168.15.103/-/15ms POST /lottery/lotteryPlan] [egg-sequelize](10ms) Executed (default): SELECT `PlanID`, `Name`, `Desc`, `ClassID`, `MergeIDs` FROM `sys_lottery_plan` AS `sys_lottery_plan`;
+2024-08-15 11:07:53,481 INFO 7992 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-15 11:07:53,484 INFO 7992 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-15 11:07:53,516 INFO 7992 [egg-sequelize](6ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-15 11:07:53,522 INFO 7992 [egg-sequelize](4ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-15 11:07:56,413 INFO 7992 [-/192.168.15.103/-/7ms POST /lottery/lotteryData] [egg-sequelize](2ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 0,10
+2024-08-15 11:07:56,480 INFO 7992 [-/192.168.15.103/-/87ms POST /lottery/qualityData] [egg-sequelize](77ms) Executed (default): SELECT Quality, COUNT(*) AS Count,IsBd FROM `sys_lottery_data` GROUP BY Quality,IsBd
+2024-08-15 11:07:56,507 INFO 7992 [-/192.168.15.103/-/103ms POST /lottery/heroData] [egg-sequelize](96ms) Executed (default): SELECT HeroID, COUNT(*) AS Count,IsBd,Odd,BdOdd,Quality FROM `sys_lottery_data` GROUP BY HeroID,IsBd
+2024-08-15 11:11:19,426 INFO 7992 [-/192.168.15.152/-/16ms POST /getHero] [egg-sequelize](3ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-15 11:11:19,433 INFO 7992 [-/192.168.15.152/-/16ms POST /lottery/lotteryPlan] [egg-sequelize](9ms) Executed (default): SELECT `PlanID`, `Name`, `Desc`, `ClassID`, `MergeIDs` FROM `sys_lottery_plan` AS `sys_lottery_plan`;
+2024-08-15 11:11:27,200 INFO 7992 [-/192.168.15.152/-/3ms POST /plan/pushPlan] JSON file written successfully
+2024-08-15 11:11:29,196 INFO 139588 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-15 11:11:29,199 INFO 139588 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-15 11:11:29,223 INFO 139588 [egg-sequelize](2ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-15 11:11:29,232 INFO 139588 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-15 11:11:29,990 INFO 139588 [-/192.168.15.152/-/6ms POST /lottery/lotteryData] [egg-sequelize](2ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 0,10
+2024-08-15 11:11:30,055 INFO 139588 [-/192.168.15.152/-/89ms POST /lottery/qualityData] [egg-sequelize](77ms) Executed (default): SELECT Quality, COUNT(*) AS Count,IsBd FROM `sys_lottery_data` GROUP BY Quality,IsBd
+2024-08-15 11:11:30,079 INFO 139588 [-/192.168.15.152/-/98ms POST /lottery/heroData] [egg-sequelize](92ms) Executed (default): SELECT HeroID, COUNT(*) AS Count,IsBd,Odd,BdOdd,Quality FROM `sys_lottery_data` GROUP BY HeroID,IsBd
+2024-08-15 11:12:10,846 INFO 139588 [-/192.168.15.152/-/12ms POST /lottery/lotteryPlan] [egg-sequelize](3ms) Executed (default): SELECT `PlanID`, `Name`, `Desc`, `ClassID`, `MergeIDs` FROM `sys_lottery_plan` AS `sys_lottery_plan`;
+2024-08-15 11:12:10,850 INFO 139588 [-/192.168.15.152/-/12ms POST /getHero] [egg-sequelize](5ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-15 13:29:33,500 INFO 155900 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-15 13:29:33,503 INFO 155900 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-15 13:29:33,516 INFO 155900 [egg-sequelize](2ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-15 13:29:33,522 INFO 155900 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-15 13:30:17,345 INFO 155900 [-/192.168.15.152/-/13ms POST /getHero] [egg-sequelize](2ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-15 13:30:17,352 INFO 155900 [-/192.168.15.152/-/15ms POST /lottery/lotteryPlan] [egg-sequelize](9ms) Executed (default): SELECT `PlanID`, `Name`, `Desc`, `ClassID`, `MergeIDs` FROM `sys_lottery_plan` AS `sys_lottery_plan`;
+2024-11-01 17:50:39,015 INFO 14120 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-11-01 17:52:27,032 INFO 31124 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2024-11-01 17:56:28,864 INFO 31124 [-/192.168.15.154/-/14ms POST /getHero] [egg-sequelize](3ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-11-01 17:56:28,888 INFO 31124 [-/192.168.15.154/-/32ms POST /lottery/lotteryPlan] [egg-sequelize](3ms) Executed (default): SELECT `PlanID`, `Name`, `Desc`, `ClassID`, `MergeIDs`, `Params` FROM `sys_lottery_plan` AS `sys_lottery_plan`;
+2024-11-01 17:56:28,987 INFO 31124 [-/192.168.15.154/-/4ms POST /lottery/getTargetLottery] [egg-sequelize](3ms) Executed (default): SELECT * FROM `sys_lottery` where Enabled=1 and LotteryClassID in (12)
+2024-11-01 17:56:31,589 INFO 31124 [-/192.168.15.154/-/74ms POST /plan/updatePlan] JSON file written successfully
+2024-11-01 17:56:31,591 INFO 31124 [-/192.168.15.154/-/77ms POST /lottery/qualityData] [egg-sequelize](76ms) Executed (default): SELECT Quality, COUNT(*) AS Count,IsBd FROM `sys_lottery_data` GROUP BY Quality,IsBd
+2024-11-01 17:56:31,604 INFO 31124 [-/192.168.15.154/-/11ms POST /lottery/heroData] [egg-sequelize](10ms) Executed (default): SELECT HeroID, COUNT(*) AS Count,IsBd,Quality FROM `sys_lottery_data` GROUP BY HeroID,Quality,IsBd
+2024-11-01 17:56:40,484 INFO 31680 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-11-04 16:15:42,545 INFO 83828 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result

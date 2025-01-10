@@ -1,0 +1,790 @@
+2024-07-18 10:08:15,618 INFO 33268 [egg-sequelize](15ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 09:15:50,360 INFO 34492 [egg-sequelize](22ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 09:54:50,510 INFO 15136 [egg-sequelize](18ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 09:57:54,159 ERROR 15136 [-/127.0.0.1/-/2ms POST /user/register?username=sola&password=123456] nodejs.TypeError: Cannot read properties of undefined (reading 'getUserByName')
+    at UserController.register (D:\linshi\AlasonEgg\app\controller\user.js:23:56)
+    at Object.callFn (D:\linshi\AlasonEgg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\linshi\AlasonEgg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 15136
+hostname: MIKU-LAPTOP
+
+2024-08-12 09:58:57,294 ERROR 15136 [-/127.0.0.1/-/69ms POST /user/register?username=sola&password=123456] nodejs.TypeError: Cannot read properties of undefined (reading 'getUserByName')
+    at UserController.register (D:\linshi\AlasonEgg\app\controller\user.js:23:56)
+    at Object.callFn (D:\linshi\AlasonEgg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\linshi\AlasonEgg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 15136
+hostname: MIKU-LAPTOP
+
+2024-08-12 10:25:15,298 INFO 23160 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 10:25:16,715 INFO 65036 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 10:25:36,598 ERROR 65036 [-/127.0.0.1/-/13ms POST /user/register?username=sola&password=123456] nodejs.TypeError: Cannot read properties of undefined (reading 'getUserByName')
+    at UserController.register (D:\linshi\AlasonEgg\app\controller\user.js:23:56)
+    at Object.callFn (D:\linshi\AlasonEgg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\linshi\AlasonEgg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 65036
+hostname: MIKU-LAPTOP
+
+2024-08-12 10:25:43,157 ERROR 65036 [-/127.0.0.1/-/1ms POST /user/register?username=sola&password=123456] nodejs.TypeError: Cannot read properties of undefined (reading 'getUserByName')
+    at UserController.register (D:\linshi\AlasonEgg\app\controller\user.js:23:56)
+    at Object.callFn (D:\linshi\AlasonEgg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\linshi\AlasonEgg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 65036
+hostname: MIKU-LAPTOP
+
+2024-08-12 10:26:05,007 INFO 62492 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 10:26:44,899 INFO 21388 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 10:26:50,206 ERROR 21388 [-/127.0.0.1/-/13ms POST /user/register?username=sola&password=123456] nodejs.TypeError: Cannot read properties of undefined (reading 'getUserByName')
+    at UserController.register (D:\linshi\AlasonEgg\app\controller\user.js:24:56)
+    at Object.callFn (D:\linshi\AlasonEgg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\linshi\AlasonEgg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 21388
+hostname: MIKU-LAPTOP
+
+2024-08-12 10:27:00,896 INFO 18308 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 10:27:08,285 INFO 56812 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 10:27:12,040 ERROR 56812 [-/127.0.0.1/-/15ms POST /user/register?username=sola&password=123456] nodejs.TypeError: Cannot read properties of undefined (reading 'getUserByName')
+    at UserController.register (D:\linshi\AlasonEgg\app\controller\user.js:24:56)
+    at Object.callFn (D:\linshi\AlasonEgg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\linshi\AlasonEgg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 56812
+hostname: MIKU-LAPTOP
+
+2024-08-12 10:29:20,274 INFO 51260 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 10:29:22,915 ERROR 51260 [-/127.0.0.1/-/16ms POST /user/register?username=sola&password=123456] nodejs.TypeError: Cannot read properties of undefined (reading 'getUserByName')
+    at UserController.register (D:\linshi\AlasonEgg\app\controller\user.js:24:52)
+    at Object.callFn (D:\linshi\AlasonEgg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\linshi\AlasonEgg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 51260
+hostname: MIKU-LAPTOP
+
+2024-08-12 10:29:43,940 INFO 56636 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 10:31:19,835 INFO 69860 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 10:31:20,419 ERROR 69860 [-/127.0.0.1/-/21ms POST /user/register?username=sola&password=123456] nodejs.TypeError: Cannot read properties of undefined (reading 'getUserByName')
+    at UserController.register (D:\linshi\AlasonEgg\app\controller\user.js:23:56)
+    at Object.callFn (D:\linshi\AlasonEgg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\linshi\AlasonEgg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at D:\linshi\AlasonEgg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at D:\linshi\AlasonEgg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 69860
+hostname: MIKU-LAPTOP
+
+2024-08-12 10:31:46,970 INFO 46104 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 10:31:52,845 INFO 46104 [-/127.0.0.1/-/27ms POST /user/register?username=sola&password=123456] [egg-sequelize](5ms) Executed (default): SELECT `id`, `name`, `username`, `password`, `avatar`, `status`, `telephone`, `lastLoginIp`, `lastLoginTime`, `creatorId`, `createTime`, `merchantCode`, `deleted`, `roleId` FROM `user` AS `user` WHERE `user`.`username` = 'sola' LIMIT 1;
+2024-08-12 10:31:52,855 INFO 46104 [-/127.0.0.1/-/37ms POST /user/register?username=sola&password=123456] [egg-sequelize](2ms) Executed (default): INSERT INTO `user` (`id`,`username`,`password`) VALUES (DEFAULT,?,?);
+2024-08-12 10:32:58,339 INFO 46632 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 10:37:06,073 INFO 42956 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 10:38:05,228 INFO 34612 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 10:38:11,003 INFO 34612 [-/127.0.0.1/-/16ms POST /user/register?username=sola&password=123456] [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `username`, `password`, `avatar`, `status`, `telephone`, `lastLoginIp`, `lastLoginTime`, `creatorId`, `createTime`, `merchantCode`, `deleted`, `roleId` FROM `user` AS `user` WHERE `user`.`username` = 'sola' LIMIT 1;
+2024-08-12 10:38:11,010 INFO 34612 [-/127.0.0.1/-/23ms POST /user/register?username=sola&password=123456] [egg-sequelize](2ms) Executed (default): INSERT INTO `user` (`id`,`username`,`password`) VALUES (DEFAULT,?,?);
+2024-08-12 10:41:17,688 INFO 71904 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 10:41:22,674 INFO 71904 [-/127.0.0.1/-/15ms POST /user/register?username=sola&password=123456] [egg-sequelize](3ms) Executed (default): SELECT `id`, `name`, `username`, `password`, `avatar`, `status`, `telephone`, `lastLoginIp`, `lastLoginTime`, `creatorId`, `createTime`, `merchantCode`, `deleted`, `roleId` FROM `user` AS `user` WHERE `user`.`username` = 'sola' LIMIT 1;
+2024-08-12 10:41:22,682 INFO 71904 [-/127.0.0.1/-/23ms POST /user/register?username=sola&password=123456] [egg-sequelize](2ms) Executed (default): INSERT INTO `user` (`id`,`username`,`password`) VALUES (DEFAULT,?,?);
+2024-08-12 10:42:55,748 INFO 9560 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 10:42:55,758 INFO 9560 [egg-sequelize](3ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'alason'
+2024-08-12 10:42:55,786 INFO 9560 [egg-sequelize](27ms) Executed (default): CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER NOT NULL auto_increment , `name` VARCHAR(255), `username` VARCHAR(30) DEFAULT '', `password` VARCHAR(32), `avatar` VARCHAR(255), `status` TINYINT, `telephone` INTEGER, `lastLoginIp` CHAR(15), `lastLoginTime` INTEGER, `creatorId` VARCHAR(32), `createTime` INTEGER, `merchantCode` VARCHAR(255), `deleted` TINYINT(1), `roleId` VARCHAR(255), PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2024-08-12 10:42:55,791 INFO 9560 [egg-sequelize](4ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 10:43:07,400 INFO 9560 [-/127.0.0.1/-/24ms POST /user/register?username=sola&password=123456] [egg-sequelize](4ms) Executed (default): SELECT `id`, `name`, `username`, `password`, `avatar`, `status`, `telephone`, `lastLoginIp`, `lastLoginTime`, `creatorId`, `createTime`, `merchantCode`, `deleted`, `roleId` FROM `user` AS `user` WHERE `user`.`username` = 'sola' LIMIT 1;
+2024-08-12 10:43:07,419 INFO 9560 [-/127.0.0.1/-/43ms POST /user/register?username=sola&password=123456] [egg-sequelize](15ms) Executed (default): INSERT INTO `user` (`id`,`username`,`password`) VALUES (DEFAULT,?,?);
+2024-08-12 10:43:39,060 INFO 9560 [-/127.0.0.1/-/9ms POST /user/login] [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `username`, `password`, `avatar`, `status`, `telephone`, `lastLoginIp`, `lastLoginTime`, `creatorId`, `createTime`, `merchantCode`, `deleted`, `roleId` FROM `user` AS `user` WHERE `user`.`username` = 'sola' LIMIT 1;
+2024-08-12 10:52:42,886 INFO 9560 [-/127.0.0.1/-/9ms POST /user/login] [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `username`, `password`, `avatar`, `status`, `telephone`, `lastLoginIp`, `lastLoginTime`, `creatorId`, `createTime`, `merchantCode`, `deleted`, `roleId` FROM `user` AS `user` WHERE `user`.`username` = 'sola' LIMIT 1;
+2024-08-12 10:52:49,124 INFO 9560 [-/127.0.0.1/-/3ms POST /user/login] [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `username`, `password`, `avatar`, `status`, `telephone`, `lastLoginIp`, `lastLoginTime`, `creatorId`, `createTime`, `merchantCode`, `deleted`, `roleId` FROM `user` AS `user` WHERE `user`.`username` = 'sola' LIMIT 1;
+2024-08-12 10:53:29,051 INFO 9560 [-/127.0.0.1/-/7ms POST /user/login] [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `username`, `password`, `avatar`, `status`, `telephone`, `lastLoginIp`, `lastLoginTime`, `creatorId`, `createTime`, `merchantCode`, `deleted`, `roleId` FROM `user` AS `user` WHERE `user`.`username` = 'sola' LIMIT 1;
+2024-08-12 10:54:13,634 INFO 9560 [-/127.0.0.1/-/8ms POST /user/login] [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `username`, `password`, `avatar`, `status`, `telephone`, `lastLoginIp`, `lastLoginTime`, `creatorId`, `createTime`, `merchantCode`, `deleted`, `roleId` FROM `user` AS `user` WHERE `user`.`username` = 'sola' LIMIT 1;
+2024-08-12 10:54:31,709 INFO 9560 [-/127.0.0.1/-/8ms POST /user/login] [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `username`, `password`, `avatar`, `status`, `telephone`, `lastLoginIp`, `lastLoginTime`, `creatorId`, `createTime`, `merchantCode`, `deleted`, `roleId` FROM `user` AS `user` WHERE `user`.`username` = '123' LIMIT 1;
+2024-08-12 10:55:10,512 INFO 9560 [-/127.0.0.1/-/16ms POST /user/login] [egg-sequelize](4ms) Executed (default): SELECT `id`, `name`, `username`, `password`, `avatar`, `status`, `telephone`, `lastLoginIp`, `lastLoginTime`, `creatorId`, `createTime`, `merchantCode`, `deleted`, `roleId` FROM `user` AS `user` WHERE `user`.`username` = '' LIMIT 1;
+2024-08-12 10:56:20,442 INFO 9560 [-/127.0.0.1/-/9ms POST /user/login] [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `username`, `password`, `avatar`, `status`, `telephone`, `lastLoginIp`, `lastLoginTime`, `creatorId`, `createTime`, `merchantCode`, `deleted`, `roleId` FROM `user` AS `user` WHERE `user`.`username` = '' LIMIT 1;
+2024-08-12 10:56:43,424 INFO 9560 [-/127.0.0.1/-/8ms POST /user/login] [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `username`, `password`, `avatar`, `status`, `telephone`, `lastLoginIp`, `lastLoginTime`, `creatorId`, `createTime`, `merchantCode`, `deleted`, `roleId` FROM `user` AS `user` WHERE `user`.`username` = '' LIMIT 1;
+2024-08-12 10:57:05,824 INFO 9560 [-/127.0.0.1/-/8ms POST /user/login] [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `username`, `password`, `avatar`, `status`, `telephone`, `lastLoginIp`, `lastLoginTime`, `creatorId`, `createTime`, `merchantCode`, `deleted`, `roleId` FROM `user` AS `user` WHERE `user`.`username` = '' LIMIT 1;
+2024-08-12 10:57:49,995 INFO 9560 [-/127.0.0.1/-/7ms POST /user/login] [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `username`, `password`, `avatar`, `status`, `telephone`, `lastLoginIp`, `lastLoginTime`, `creatorId`, `createTime`, `merchantCode`, `deleted`, `roleId` FROM `user` AS `user` WHERE `user`.`username` = '' LIMIT 1;
+2024-08-12 10:58:19,339 INFO 9560 [-/127.0.0.1/-/7ms POST /user/login] [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `username`, `password`, `avatar`, `status`, `telephone`, `lastLoginIp`, `lastLoginTime`, `creatorId`, `createTime`, `merchantCode`, `deleted`, `roleId` FROM `user` AS `user` WHERE `user`.`username` = '123' LIMIT 1;
+2024-08-12 10:59:06,656 INFO 21932 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 10:59:06,668 INFO 21932 [egg-sequelize](5ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'alason'
+2024-08-12 10:59:06,673 INFO 21932 [egg-sequelize](4ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 11:32:19,082 INFO 157352 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 11:32:19,094 INFO 157352 [egg-sequelize](2ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 11:32:19,097 INFO 157352 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 11:33:09,972 INFO 157352 [-/127.0.0.1/-/66ms POST /user/login] [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `username`, `password`, `avatar`, `status`, `telephone`, `lastLoginIp`, `lastLoginTime`, `creatorId`, `createTime`, `merchantCode`, `deleted`, `roleId` FROM `user` AS `user` WHERE `user`.`username` = 'admin' LIMIT 1;
+2024-08-12 11:37:29,706 INFO 159036 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 11:37:29,722 INFO 159036 [egg-sequelize](3ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 11:37:29,727 INFO 159036 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 11:37:49,114 INFO 162852 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 11:37:49,126 INFO 162852 [egg-sequelize](2ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 11:37:49,131 INFO 162852 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 11:37:58,016 INFO 162852 [-/127.0.0.1/-/41ms POST /user/login] [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `username`, `password`, `avatar`, `status`, `telephone`, `lastLoginIp`, `lastLoginTime`, `creatorId`, `createTime`, `merchantCode`, `deleted`, `roleId` FROM `user` AS `user` WHERE `user`.`Name` = 'admin' LIMIT 1;
+2024-08-12 11:38:37,562 INFO 162852 [-/127.0.0.1/-/8ms POST /user/login] [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `username`, `password`, `avatar`, `status`, `telephone`, `lastLoginIp`, `lastLoginTime`, `creatorId`, `createTime`, `merchantCode`, `deleted`, `roleId` FROM `user` AS `user` WHERE `user`.`Name` = '' LIMIT 1;
+2024-08-12 11:38:47,883 INFO 162852 [-/127.0.0.1/-/9ms POST /user/login] [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `username`, `password`, `avatar`, `status`, `telephone`, `lastLoginIp`, `lastLoginTime`, `creatorId`, `createTime`, `merchantCode`, `deleted`, `roleId` FROM `user` AS `user` WHERE `user`.`Name` = 'admin' LIMIT 1;
+2024-08-12 11:39:17,792 INFO 162852 [-/127.0.0.1/-/7ms POST /user/login] [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `username`, `password`, `avatar`, `status`, `telephone`, `lastLoginIp`, `lastLoginTime`, `creatorId`, `createTime`, `merchantCode`, `deleted`, `roleId` FROM `user` AS `user` WHERE `user`.`Name` = 'admin' LIMIT 1;
+2024-08-12 11:40:09,497 INFO 159980 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 11:40:09,510 INFO 159980 [egg-sequelize](3ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 11:40:09,514 INFO 159980 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 11:40:19,960 INFO 159980 [-/127.0.0.1/-/24ms POST /user/login] [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `username`, `password`, `avatar`, `status`, `telephone`, `lastLoginIp`, `lastLoginTime`, `creatorId`, `createTime`, `merchantCode`, `deleted`, `roleId` FROM `user` AS `user` WHERE `user`.`Name` = 'admin' LIMIT 1;
+2024-08-12 11:43:52,554 INFO 161000 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 11:43:52,567 INFO 161000 [egg-sequelize](2ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 11:43:52,571 INFO 161000 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 11:45:01,640 INFO 147412 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 11:45:01,653 INFO 147412 [egg-sequelize](2ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 11:45:01,657 INFO 147412 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 11:45:30,120 INFO 138724 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 11:45:30,133 INFO 138724 [egg-sequelize](2ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 11:45:30,137 INFO 138724 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 11:45:49,889 INFO 138724 [-/127.0.0.1/-/22ms POST /user/login] [egg-sequelize](1ms) Executed (default): SELECT `UserID`, `Name`, `Password` FROM `user` AS `user` WHERE `user`.`Name` = 'admin' LIMIT 1;
+2024-08-12 11:52:01,337 INFO 138724 [-/127.0.0.1/-/8ms POST /user/login] [egg-sequelize](0ms) Executed (default): SELECT `UserID`, `Name`, `Password` FROM `user` AS `user` WHERE `user`.`Name` = 'admin1' LIMIT 1;
+2024-08-12 11:53:25,248 INFO 157516 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 11:53:25,262 INFO 157516 [egg-sequelize](2ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 11:53:25,268 INFO 157516 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 11:53:28,449 INFO 157516 [-/127.0.0.1/-/17ms POST /user/login] [egg-sequelize](1ms) Executed (default): SELECT `UserID`, `Name`, `Password` FROM `user` AS `user` WHERE `user`.`Name` = 'admin1' LIMIT 1;
+2024-08-12 11:54:06,970 INFO 161248 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 11:54:06,987 INFO 161248 [egg-sequelize](3ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 11:54:06,997 INFO 161248 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 11:54:07,917 INFO 161248 [-/127.0.0.1/-/17ms POST /user/login] [egg-sequelize](1ms) Executed (default): SELECT `UserID`, `Name`, `Password` FROM `user` AS `user` WHERE `user`.`Name` = 'admin1' LIMIT 1;
+2024-08-12 11:54:24,445 INFO 67324 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 11:54:24,459 INFO 67324 [egg-sequelize](3ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 11:54:24,463 INFO 67324 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 11:54:28,282 INFO 67324 [-/127.0.0.1/-/17ms POST /user/login] [egg-sequelize](2ms) Executed (default): SELECT `UserID`, `Name`, `Password` FROM `user` AS `user` WHERE `user`.`Name` = 'admin1' LIMIT 1;
+2024-08-12 13:20:24,372 INFO 156364 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 13:20:24,401 INFO 156364 [egg-sequelize](3ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 13:20:24,406 INFO 156364 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 13:20:46,175 INFO 156364 [-/127.0.0.1/-/33ms POST /user/login] [egg-sequelize](1ms) Executed (default): SELECT `UserID`, `Name`, `Password` FROM `user` AS `user` WHERE `user`.`Name` = 'xxx' LIMIT 1;
+2024-08-12 13:22:35,632 INFO 156364 [-/127.0.0.1/-/7ms POST /user/login] [egg-sequelize](0ms) Executed (default): SELECT `UserID`, `Name`, `Password` FROM `user` AS `user` WHERE `user`.`Name` = 'xxx' LIMIT 1;
+2024-08-12 13:23:24,366 INFO 156364 [-/127.0.0.1/-/19ms POST /user/login] [egg-sequelize](2ms) Executed (default): SELECT `UserID`, `Name`, `Password` FROM `user` AS `user` WHERE `user`.`Name` = 'xxx' LIMIT 1;
+2024-08-12 13:25:59,853 INFO 161072 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 13:25:59,868 INFO 161072 [egg-sequelize](2ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 13:25:59,873 INFO 161072 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 13:26:39,648 INFO 149120 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 13:26:39,661 INFO 149120 [egg-sequelize](2ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 13:26:39,665 INFO 149120 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 13:26:48,858 INFO 149120 [-/127.0.0.1/-/20ms POST /user/login] [egg-sequelize](2ms) Executed (default): SELECT `UserID`, `Name`, `Password` FROM `user` AS `user` WHERE `user`.`Name` = 'xxx' LIMIT 1;
+2024-08-12 13:37:24,794 WARN 159332 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2024-08-12 13:37:25,800 WARN 159332 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2024-08-12 13:37:26,803 WARN 159332 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2024-08-12 13:38:05,264 WARN 3444 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2024-08-12 13:38:06,267 WARN 3444 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2024-08-12 13:38:07,269 WARN 3444 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2024-08-12 15:11:52,919 INFO 153948 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:11:52,921 INFO 153948 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:11:52,932 INFO 153948 [egg-sequelize](4ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 15:11:52,936 INFO 153948 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 15:12:19,499 INFO 162732 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:12:19,503 INFO 162732 [egg-sequelize](7ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:12:19,547 INFO 162732 [egg-sequelize](3ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 15:12:19,557 INFO 162732 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 15:12:36,605 INFO 156648 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:12:36,608 INFO 156648 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:12:36,618 INFO 156648 [egg-sequelize](2ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 15:12:36,622 INFO 156648 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 15:14:21,811 INFO 133492 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:14:21,812 INFO 133492 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:14:21,822 INFO 133492 [egg-sequelize](3ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 15:14:21,826 INFO 133492 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 15:19:25,678 INFO 162856 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:19:25,680 INFO 162856 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:19:25,689 INFO 162856 [egg-sequelize](2ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 15:19:25,692 INFO 162856 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 15:19:42,166 INFO 154188 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:19:42,168 INFO 154188 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:19:42,178 INFO 154188 [egg-sequelize](2ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 15:19:42,183 INFO 154188 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 15:19:54,475 INFO 137968 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:19:54,477 INFO 137968 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:19:54,486 INFO 137968 [egg-sequelize](2ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 15:19:54,491 INFO 137968 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 15:21:40,337 INFO 156412 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:21:40,339 INFO 156412 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:21:40,348 INFO 156412 [egg-sequelize](2ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 15:21:40,353 INFO 156412 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 15:22:15,782 INFO 9804 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:22:15,784 INFO 9804 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:22:15,794 INFO 9804 [egg-sequelize](3ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 15:22:15,800 INFO 9804 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 15:22:51,910 INFO 127884 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:22:51,911 INFO 127884 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:22:51,921 INFO 127884 [egg-sequelize](3ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 15:22:51,928 INFO 127884 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 15:23:17,310 INFO 161976 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:23:17,313 INFO 161976 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:23:17,324 INFO 161976 [egg-sequelize](2ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 15:23:17,328 INFO 161976 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 15:25:08,280 INFO 158292 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:25:08,283 INFO 158292 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:25:08,293 INFO 158292 [egg-sequelize](2ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 15:25:08,297 INFO 158292 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 15:29:21,352 INFO 154868 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:29:21,353 INFO 154868 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:29:21,363 INFO 154868 [egg-sequelize](2ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 15:29:21,366 INFO 154868 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 15:39:42,588 INFO 135648 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:39:42,590 INFO 135648 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:39:42,600 INFO 135648 [egg-sequelize](2ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 15:39:42,604 INFO 135648 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 15:42:59,390 INFO 160280 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:42:59,393 INFO 160280 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:42:59,403 INFO 160280 [egg-sequelize](2ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 15:42:59,407 INFO 160280 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 15:43:01,407 INFO 160280 [-/127.0.0.1/-/15ms POST /user/login] [egg-sequelize](1ms) Executed (default): SELECT `UserID`, `Name`, `Password` FROM `user` AS `user` WHERE `user`.`Name` = 'xxx' LIMIT 1;
+2024-08-12 15:43:24,581 INFO 149164 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:43:24,583 INFO 149164 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:43:24,592 INFO 149164 [egg-sequelize](2ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 15:43:24,599 INFO 149164 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 15:43:29,048 ERROR 149164 [-/127.0.0.1/-/14ms POST /lotteryData] nodejs.TypeError: Cannot read properties of undefined (reading 'list')
+    at LotteryDataController.getList (D:\testTools\egg-project\app\controller\lotteryData.js:13:63)
+    at Object.callFn (D:\testTools\egg-project\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\testTools\egg-project\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\testTools\egg-project\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\testTools\egg-project\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\testTools\egg-project\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (D:\testTools\egg-project\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at D:\testTools\egg-project\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\testTools\egg-project\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at D:\testTools\egg-project\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 149164
+hostname: DESKTOP-K1T6R27
+
+2024-08-12 15:44:10,707 INFO 161004 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:44:10,709 INFO 161004 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:44:10,718 INFO 161004 [egg-sequelize](1ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 15:44:10,722 INFO 161004 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 15:44:46,447 INFO 133492 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:44:46,449 INFO 133492 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:44:46,460 INFO 133492 [egg-sequelize](3ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 15:44:46,464 INFO 133492 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 15:44:49,395 INFO 162676 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:44:49,397 INFO 162676 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:44:49,407 INFO 162676 [egg-sequelize](3ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 15:44:49,411 INFO 162676 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 15:44:53,544 ERROR 162676 [-/127.0.0.1/-/13ms POST /lotteryData] nodejs.TypeError: Cannot read properties of undefined (reading 'list')
+    at LotteryDataController.getList (D:\testTools\egg-project\app\controller\lotteryData.js:14:63)
+    at Object.callFn (D:\testTools\egg-project\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\testTools\egg-project\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\testTools\egg-project\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\testTools\egg-project\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\testTools\egg-project\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (D:\testTools\egg-project\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at D:\testTools\egg-project\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\testTools\egg-project\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at D:\testTools\egg-project\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 162676
+hostname: DESKTOP-K1T6R27
+
+2024-08-12 15:45:08,597 INFO 161660 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:45:08,599 INFO 161660 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:45:08,611 INFO 161660 [egg-sequelize](3ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 15:45:08,614 INFO 161660 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 15:45:12,885 ERROR 161660 [-/127.0.0.1/-/20ms POST /lotteryData] nodejs.TypeError: Cannot read properties of undefined (reading 'list')
+    at LotteryDataController.getList (D:\testTools\egg-project\app\controller\lotteryData.js:14:63)
+    at Object.callFn (D:\testTools\egg-project\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\testTools\egg-project\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\testTools\egg-project\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\testTools\egg-project\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\testTools\egg-project\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (D:\testTools\egg-project\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at D:\testTools\egg-project\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\testTools\egg-project\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at D:\testTools\egg-project\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 161660
+hostname: DESKTOP-K1T6R27
+
+2024-08-12 15:46:07,848 INFO 153832 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:46:07,851 INFO 153832 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:46:07,861 INFO 153832 [egg-sequelize](2ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 15:46:07,874 INFO 153832 [egg-sequelize](4ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 15:46:08,713 ERROR 153832 [-/127.0.0.1/-/23ms POST /lotteryData] nodejs.TypeError: Cannot read properties of undefined (reading 'Model2')
+    at LotteryData.list (D:\testTools\egg-project\app\service\lotteryData.js:8:30)
+    at LotteryDataController.getList (D:\testTools\egg-project\app\controller\lotteryData.js:14:63)
+    at Object.callFn (D:\testTools\egg-project\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\testTools\egg-project\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\testTools\egg-project\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\testTools\egg-project\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\testTools\egg-project\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (D:\testTools\egg-project\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at D:\testTools\egg-project\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\testTools\egg-project\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 153832
+hostname: DESKTOP-K1T6R27
+
+2024-08-12 15:46:25,325 INFO 15432 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:46:25,327 INFO 15432 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:46:25,336 INFO 15432 [egg-sequelize](2ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 15:46:25,340 INFO 15432 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 15:46:34,420 INFO 157508 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:46:34,422 INFO 157508 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 15:46:34,432 INFO 157508 [egg-sequelize](2ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 15:46:34,435 INFO 157508 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 15:46:36,277 INFO 157508 [-/127.0.0.1/-/217ms POST /lotteryData] [egg-sequelize](201ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 15:47:43,075 INFO 157508 [-/127.0.0.1/-/231ms POST /lotteryData] [egg-sequelize](214ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 15:47:45,870 INFO 157508 [-/127.0.0.1/-/147ms POST /lotteryData] [egg-sequelize](146ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 15:48:17,765 INFO 157508 [-/127.0.0.1/-/364ms POST /lotteryData] [egg-sequelize](354ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 15:48:22,209 INFO 157508 [-/127.0.0.1/-/170ms POST /lotteryData] [egg-sequelize](168ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 15:50:22,762 INFO 157508 [-/127.0.0.1/-/197ms POST /lotteryData] [egg-sequelize](189ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 15:50:28,991 INFO 157508 [-/127.0.0.1/-/9ms POST /user/login] [egg-sequelize](1ms) Executed (default): SELECT `UserID`, `Name`, `Password` FROM `user` AS `user` WHERE `user`.`Name` = 'xxx' LIMIT 1;
+2024-08-12 15:50:29,271 INFO 157508 [-/127.0.0.1/-/170ms POST /lotteryData] [egg-sequelize](167ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 15:50:51,801 INFO 157508 [-/127.0.0.1/-/187ms POST /lotteryData] [egg-sequelize](183ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 15:51:33,364 INFO 157508 [-/127.0.0.1/-/1005ms POST /lotteryData] [egg-sequelize](992ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 16:01:35,764 INFO 157508 [-/127.0.0.1/-/225ms POST /lotteryData] [egg-sequelize](208ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 16:02:07,479 INFO 157508 [-/127.0.0.1/-/209ms POST /lotteryData] [egg-sequelize](191ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 16:02:11,446 INFO 157508 [-/127.0.0.1/-/158ms POST /lotteryData] [egg-sequelize](157ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 16:03:10,196 INFO 157508 [-/127.0.0.1/-/194ms POST /lotteryData] [egg-sequelize](186ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 16:04:50,271 INFO 157508 [-/127.0.0.1/-/203ms POST /lotteryData] [egg-sequelize](185ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 16:06:54,269 INFO 135648 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 16:06:54,272 INFO 135648 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 16:06:54,299 INFO 135648 [egg-sequelize](4ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 16:06:54,305 INFO 135648 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 16:07:00,088 INFO 161708 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 16:07:00,090 INFO 161708 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 16:07:00,099 INFO 161708 [egg-sequelize](2ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 16:07:00,103 INFO 161708 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 16:07:14,979 INFO 160952 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 16:07:14,981 INFO 160952 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 16:07:14,991 INFO 160952 [egg-sequelize](2ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 16:07:14,995 INFO 160952 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 16:07:21,016 INFO 134428 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 16:07:21,018 INFO 134428 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 16:07:21,028 INFO 134428 [egg-sequelize](2ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 16:07:21,032 INFO 134428 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 16:07:33,068 INFO 152472 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 16:07:33,071 INFO 152472 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 16:07:33,081 INFO 152472 [egg-sequelize](2ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 16:07:33,085 INFO 152472 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 16:07:54,196 INFO 154804 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 16:07:54,198 INFO 154804 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 16:07:54,208 INFO 154804 [egg-sequelize](2ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 16:07:54,213 INFO 154804 [egg-sequelize](4ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 16:08:03,521 INFO 144948 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 16:08:03,524 INFO 144948 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 16:08:03,541 INFO 144948 [egg-sequelize](3ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 16:08:03,546 INFO 144948 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 16:08:15,618 INFO 154320 [egg-sequelize](4ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 16:08:15,626 INFO 154320 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 16:08:15,752 INFO 154320 [egg-sequelize](3ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 16:08:15,757 INFO 154320 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 16:08:21,092 INFO 135752 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 16:08:21,094 INFO 135752 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 16:08:21,105 INFO 135752 [egg-sequelize](3ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 16:08:21,113 INFO 135752 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 16:08:31,127 INFO 161972 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 16:08:31,129 INFO 161972 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 16:08:31,139 INFO 161972 [egg-sequelize](2ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 16:08:31,143 INFO 161972 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 16:08:38,054 INFO 156956 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 16:08:38,056 INFO 156956 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 16:08:38,072 INFO 156956 [egg-sequelize](3ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 16:08:38,077 INFO 156956 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 16:08:46,988 INFO 157544 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 16:08:46,991 INFO 157544 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 16:08:46,999 INFO 157544 [egg-sequelize](1ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 16:08:47,004 INFO 157544 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 16:08:52,610 INFO 157800 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 16:08:52,612 INFO 157800 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 16:08:52,621 INFO 157800 [egg-sequelize](2ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 16:08:52,626 INFO 157800 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 16:09:27,670 INFO 161512 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 16:09:27,671 INFO 161512 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 16:09:27,681 INFO 161512 [egg-sequelize](3ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 16:09:27,685 INFO 161512 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 16:10:14,702 INFO 155504 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 16:10:14,703 INFO 155504 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 16:10:14,714 INFO 155504 [egg-sequelize](3ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 16:10:14,718 INFO 155504 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 16:10:32,137 INFO 155504 [-/127.0.0.1/-/27ms POST /getHero] [egg-sequelize](4ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 16:10:53,323 INFO 155504 [-/127.0.0.1/-/9ms POST /getHero] [egg-sequelize](3ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 16:11:02,939 INFO 155504 [-/127.0.0.1/-/3ms POST /getHero] [egg-sequelize](2ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 16:11:13,550 INFO 155504 [-/127.0.0.1/-/12ms POST /getHero] [egg-sequelize](5ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 16:14:44,355 INFO 155504 [-/127.0.0.1/-/12ms POST /getHero] [egg-sequelize](3ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 16:15:21,464 INFO 155504 [-/127.0.0.1/-/9ms POST /getHero] [egg-sequelize](1ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 16:15:23,938 INFO 155504 [-/127.0.0.1/-/5ms POST /getHero] [egg-sequelize](4ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 16:15:33,324 INFO 155504 [-/127.0.0.1/-/4ms POST /getHero] [egg-sequelize](3ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 16:15:36,832 INFO 155504 [-/127.0.0.1/-/5ms POST /getHero] [egg-sequelize](4ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 16:15:46,467 INFO 155504 [-/127.0.0.1/-/7ms POST /getHero] [egg-sequelize](5ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 16:16:08,773 INFO 155504 [-/127.0.0.1/-/10ms POST /getHero] [egg-sequelize](3ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 16:16:27,544 INFO 155504 [-/127.0.0.1/-/12ms POST /getHero] [egg-sequelize](2ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 16:16:31,515 INFO 155504 [-/127.0.0.1/-/5ms POST /getHero] [egg-sequelize](3ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 16:16:41,471 INFO 155504 [-/127.0.0.1/-/3ms POST /getHero] [egg-sequelize](1ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 16:16:46,336 INFO 155504 [-/127.0.0.1/-/4ms POST /getHero] [egg-sequelize](3ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 16:17:36,255 INFO 155504 [-/127.0.0.1/-/9ms POST /getHero] [egg-sequelize](2ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 16:17:45,293 INFO 155504 [-/127.0.0.1/-/238ms POST /lotteryData] [egg-sequelize](235ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 16:20:59,046 INFO 155504 [-/127.0.0.1/-/213ms POST /lotteryData] [egg-sequelize](206ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 16:23:16,746 INFO 155504 [-/127.0.0.1/-/12ms POST /getHero] [egg-sequelize](3ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 16:23:27,428 INFO 155504 [-/127.0.0.1/-/263ms POST /lotteryData] [egg-sequelize](254ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 16:55:27,112 INFO 155504 [-/127.0.0.1/-/19ms POST /getHero] [egg-sequelize](1ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 16:58:12,738 INFO 155504 [-/127.0.0.1/-/19ms POST /getHero] [egg-sequelize](4ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 16:58:15,554 INFO 155504 [-/127.0.0.1/-/5ms POST /lotteryData] [egg-sequelize](2ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 16:58:59,000 INFO 155504 [-/127.0.0.1/-/8ms POST /getHero] [egg-sequelize](3ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 17:01:35,408 INFO 155504 [-/127.0.0.1/-/6ms POST /getHero] [egg-sequelize](3ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 17:03:27,317 INFO 155504 [-/127.0.0.1/-/46ms POST /user/login] [egg-sequelize](3ms) Executed (default): SELECT `UserID`, `Name`, `Password` FROM `user` AS `user` WHERE `user`.`Name` = 'xxx' LIMIT 1;
+2024-08-12 17:03:28,541 INFO 155504 [-/127.0.0.1/-/11ms POST /getHero] [egg-sequelize](4ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 17:03:50,386 INFO 155504 [-/127.0.0.1/-/8ms POST /getHero] [egg-sequelize](2ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 17:46:33,850 INFO 155504 [-/127.0.0.1/-/16ms POST /user/login] [egg-sequelize](1ms) Executed (default): SELECT `UserID`, `Name`, `Password` FROM `user` AS `user` WHERE `user`.`Name` = 'xxx' LIMIT 1;
+2024-08-12 17:47:05,311 INFO 155504 [-/127.0.0.1/-/7ms POST /user/login] [egg-sequelize](1ms) Executed (default): SELECT `UserID`, `Name`, `Password` FROM `user` AS `user` WHERE `user`.`Name` = 'xxx' LIMIT 1;
+2024-08-12 17:48:45,016 INFO 155504 [-/127.0.0.1/-/5ms POST /getHero] [egg-sequelize](2ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 17:48:49,360 INFO 155504 [-/127.0.0.1/-/3ms POST /getHero] [egg-sequelize](1ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 17:49:06,345 INFO 155504 [-/127.0.0.1/-/7ms POST /user/login] [egg-sequelize](1ms) Executed (default): SELECT `UserID`, `Name`, `Password` FROM `user` AS `user` WHERE `user`.`Name` = 'xxx' LIMIT 1;
+2024-08-12 17:49:06,484 INFO 155504 [-/127.0.0.1/-/8ms POST /getHero] [egg-sequelize](3ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 17:52:15,406 INFO 155504 [-/127.0.0.1/-/5ms POST /getHero] [egg-sequelize](1ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 17:58:28,471 INFO 155504 [-/127.0.0.1/-/135ms POST /user/login] [egg-sequelize](1ms) Executed (default): SELECT `UserID`, `Name`, `Password` FROM `user` AS `user` WHERE `user`.`Name` = 'xxx' LIMIT 1;
+2024-08-12 17:58:28,615 INFO 155504 [-/127.0.0.1/-/9ms POST /getHero] [egg-sequelize](4ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 17:58:46,339 INFO 155504 [-/127.0.0.1/-/19ms POST /user/login] [egg-sequelize](1ms) Executed (default): SELECT `UserID`, `Name`, `Password` FROM `user` AS `user` WHERE `user`.`Name` = 'xxx' LIMIT 1;
+2024-08-12 17:59:19,151 INFO 155504 [-/127.0.0.1/-/55ms POST /getHero] [egg-sequelize](1ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 18:43:57,669 INFO 155504 [-/127.0.0.1/-/19ms POST /getHero] [egg-sequelize](2ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 18:44:00,683 INFO 155504 [-/127.0.0.1/-/15ms POST /getHero] [egg-sequelize](14ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 18:44:09,637 INFO 155504 [-/127.0.0.1/-/35ms POST /user/login] [egg-sequelize](1ms) Executed (default): SELECT `UserID`, `Name`, `Password` FROM `user` AS `user` WHERE `user`.`Name` = 'xxx' LIMIT 1;
+2024-08-12 18:44:15,089 INFO 155504 [-/127.0.0.1/-/158ms POST /getHero] [egg-sequelize](111ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 19:01:52,911 INFO 155504 [-/127.0.0.1/-/13ms POST /getHero] [egg-sequelize](2ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 19:03:19,694 INFO 155504 [-/127.0.0.1/-/102ms POST /getHero] [egg-sequelize](1ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 19:03:22,302 INFO 155504 [-/127.0.0.1/-/2697ms POST /lotteryData] [egg-sequelize](2609ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 19:03:27,281 INFO 155504 [-/127.0.0.1/-/5ms POST /getHero] [egg-sequelize](3ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 19:03:27,400 INFO 155504 [-/127.0.0.1/-/120ms POST /lotteryData] [egg-sequelize](120ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 19:04:18,933 INFO 155504 [-/127.0.0.1/-/259ms POST /lotteryData] [egg-sequelize](233ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 19:04:20,883 INFO 155504 [-/127.0.0.1/-/2187ms POST /getHero] [egg-sequelize](2181ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 19:04:24,058 INFO 155504 [-/127.0.0.1/-/4ms POST /getHero] [egg-sequelize](2ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 19:04:24,303 INFO 155504 [-/127.0.0.1/-/250ms POST /lotteryData] [egg-sequelize](249ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 19:05:36,766 INFO 155504 [-/127.0.0.1/-/125ms POST /lotteryData] [egg-sequelize](116ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 19:05:37,194 INFO 155504 [-/127.0.0.1/-/8ms POST /getHero] [egg-sequelize](2ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 19:05:39,437 INFO 155504 [-/127.0.0.1/-/3ms POST /getHero] [egg-sequelize](2ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 19:05:39,537 INFO 155504 [-/127.0.0.1/-/102ms POST /lotteryData] [egg-sequelize](99ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 19:07:19,948 INFO 155504 [-/127.0.0.1/-/11ms POST /getHero] [egg-sequelize](3ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 19:07:19,951 INFO 155504 [-/127.0.0.1/-/11ms POST /lotteryData] [egg-sequelize](6ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 19:07:23,083 INFO 155504 [-/127.0.0.1/-/5ms POST /getHero] [egg-sequelize](4ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 19:07:23,085 INFO 155504 [-/127.0.0.1/-/6ms POST /lotteryData] [egg-sequelize](5ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 19:07:34,927 INFO 155504 [-/127.0.0.1/-/9ms POST /getHero] [egg-sequelize](3ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 19:07:34,933 INFO 155504 [-/127.0.0.1/-/13ms POST /lotteryData] [egg-sequelize](8ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 19:07:44,170 INFO 155504 [-/127.0.0.1/-/4ms POST /getHero] [egg-sequelize](2ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 19:07:44,210 INFO 155504 [-/127.0.0.1/-/37ms POST /lotteryData] [egg-sequelize](36ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 19:07:52,057 INFO 155504 [-/127.0.0.1/-/5ms POST /getHero] [egg-sequelize](3ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 19:07:52,101 INFO 155504 [-/127.0.0.1/-/47ms POST /lotteryData] [egg-sequelize](43ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 19:09:09,132 INFO 155504 [-/127.0.0.1/-/11ms POST /getHero] [egg-sequelize](2ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 19:09:09,219 INFO 155504 [-/127.0.0.1/-/95ms POST /lotteryData] [egg-sequelize](89ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 19:09:36,957 INFO 155504 [-/127.0.0.1/-/9ms POST /getHero] [egg-sequelize](2ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 19:09:37,002 INFO 155504 [-/127.0.0.1/-/49ms POST /lotteryData] [egg-sequelize](46ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 19:10:03,523 INFO 155504 [-/127.0.0.1/-/8ms POST /getHero] [egg-sequelize](3ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 19:10:03,530 INFO 155504 [-/127.0.0.1/-/13ms POST /lotteryData] [egg-sequelize](2ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 19:10:05,849 INFO 155504 [-/127.0.0.1/-/2ms POST /getHero] [egg-sequelize](1ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 19:10:05,876 INFO 155504 [-/127.0.0.1/-/28ms POST /lotteryData] [egg-sequelize](27ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 19:10:52,679 INFO 155504 [-/127.0.0.1/-/10ms POST /getHero] [egg-sequelize](2ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 19:10:52,757 INFO 155504 [-/127.0.0.1/-/91ms POST /lotteryData] [egg-sequelize](82ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 19:11:44,283 INFO 155504 [-/127.0.0.1/-/8ms POST /getHero] [egg-sequelize](2ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 19:11:44,409 INFO 155504 [-/127.0.0.1/-/105ms POST /lotteryData] [egg-sequelize](102ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 19:12:09,175 INFO 155504 [-/127.0.0.1/-/11ms POST /getHero] [egg-sequelize](2ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 19:12:09,230 INFO 155504 [-/127.0.0.1/-/62ms POST /lotteryData] [egg-sequelize](57ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 19:12:17,111 INFO 155504 [-/127.0.0.1/-/3ms POST /getHero] [egg-sequelize](2ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 19:12:17,157 INFO 155504 [-/127.0.0.1/-/48ms POST /lotteryData] [egg-sequelize](47ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 19:12:34,465 INFO 155504 [-/127.0.0.1/-/6ms POST /getHero] [egg-sequelize](1ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 19:12:34,486 INFO 155504 [-/127.0.0.1/-/25ms POST /lotteryData] [egg-sequelize](22ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 19:15:29,273 INFO 155504 [-/127.0.0.1/-/12ms POST /getHero] [egg-sequelize](2ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 19:15:29,336 INFO 155504 [-/127.0.0.1/-/70ms POST /lotteryData] [egg-sequelize](60ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 19:15:34,725 INFO 155504 [-/127.0.0.1/-/3ms POST /getHero] [egg-sequelize](1ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 19:15:34,770 INFO 155504 [-/127.0.0.1/-/47ms POST /lotteryData] [egg-sequelize](46ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 19:20:19,003 INFO 155504 [-/127.0.0.1/-/7ms POST /getHero] [egg-sequelize](2ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 19:20:19,407 INFO 155504 [-/127.0.0.1/-/410ms POST /lotteryData] [egg-sequelize](402ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 19:20:22,140 INFO 155504 [-/127.0.0.1/-/15ms POST /getHero] [egg-sequelize](13ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 19:20:22,366 INFO 155504 [-/127.0.0.1/-/238ms POST /lotteryData] [egg-sequelize](237ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 19:21:47,262 INFO 155504 [-/127.0.0.1/-/11ms POST /getHero] [egg-sequelize](3ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 19:21:47,469 INFO 155504 [-/127.0.0.1/-/214ms POST /lotteryData] [egg-sequelize](210ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 19:24:29,038 INFO 155504 [-/127.0.0.1/-/13ms POST /getHero] [egg-sequelize](3ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 19:24:31,963 INFO 155504 [-/127.0.0.1/-/2934ms POST /lotteryData] [egg-sequelize](2928ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 19:24:53,314 INFO 155504 [-/127.0.0.1/-/23ms POST /getHero] [egg-sequelize](1ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 19:24:56,044 INFO 155504 [-/127.0.0.1/-/2737ms POST /lotteryData] [egg-sequelize](2729ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 19:28:12,934 INFO 155504 [-/127.0.0.1/-/14ms POST /getHero] [egg-sequelize](2ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 19:28:13,623 INFO 155504 [-/127.0.0.1/-/695ms POST /lotteryData] [egg-sequelize](684ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 19:29:26,107 INFO 155504 [-/127.0.0.1/-/17ms POST /getHero] [egg-sequelize](6ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 19:29:26,547 INFO 155504 [-/127.0.0.1/-/453ms POST /lotteryData] [egg-sequelize](446ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 19:29:36,005 INFO 155504 [-/127.0.0.1/-/2ms POST /getHero] [egg-sequelize](1ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 19:29:36,430 INFO 155504 [-/127.0.0.1/-/423ms POST /lotteryData] [egg-sequelize](422ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 19:33:24,745 INFO 155504 [-/127.0.0.1/-/12ms POST /getHero] [egg-sequelize](4ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 19:33:25,269 INFO 155504 [-/127.0.0.1/-/531ms POST /lotteryData] [egg-sequelize](522ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 19:38:29,421 INFO 155504 [-/127.0.0.1/-/16ms POST /getHero] [egg-sequelize](5ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 19:38:29,686 INFO 155504 [-/127.0.0.1/-/276ms POST /lotteryData] [egg-sequelize](262ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 19:38:58,821 INFO 155504 [-/127.0.0.1/-/10ms POST /getHero] [egg-sequelize](3ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 19:38:59,168 INFO 155504 [-/127.0.0.1/-/354ms POST /lotteryData] [egg-sequelize](351ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 19:40:30,465 INFO 155504 [-/127.0.0.1/-/12ms POST /getHero] [egg-sequelize](4ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 19:40:32,532 INFO 155504 [-/127.0.0.1/-/2076ms POST /lotteryData] [egg-sequelize](2070ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 19:48:06,677 INFO 155504 [-/127.0.0.1/-/25ms POST /getHero] [egg-sequelize](3ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 19:48:08,637 INFO 155504 [-/127.0.0.1/-/1968ms POST /lotteryData] [egg-sequelize](1963ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 19:48:36,102 INFO 155504 [-/127.0.0.1/-/540ms POST /getHero] [egg-sequelize](2ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 19:48:38,697 INFO 155504 [-/127.0.0.1/-/2813ms POST /lotteryData] [egg-sequelize](2596ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 19:49:44,917 INFO 155504 [-/127.0.0.1/-/466ms POST /getHero] [egg-sequelize](2ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 19:49:46,989 INFO 155504 [-/127.0.0.1/-/2159ms POST /lotteryData] [egg-sequelize](2074ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 20:09:26,287 INFO 154892 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 20:09:26,289 INFO 154892 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 20:09:26,380 INFO 154892 [egg-sequelize](10ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 20:09:26,384 INFO 154892 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 20:10:48,768 INFO 156276 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 20:10:48,771 INFO 156276 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 20:10:48,841 INFO 156276 [egg-sequelize](4ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 20:10:48,847 INFO 156276 [egg-sequelize](4ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 20:11:27,641 INFO 133492 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 20:11:27,644 INFO 133492 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 20:11:27,668 INFO 133492 [egg-sequelize](2ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 20:11:27,674 INFO 133492 [egg-sequelize](4ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 20:12:34,294 INFO 162576 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 20:12:34,297 INFO 162576 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 20:12:34,306 INFO 162576 [egg-sequelize](2ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 20:12:34,311 INFO 162576 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 20:13:18,641 INFO 15564 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 20:13:18,643 INFO 15564 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 20:13:18,685 INFO 15564 [egg-sequelize](6ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 20:13:18,693 INFO 15564 [egg-sequelize](4ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 20:14:38,842 INFO 2968 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 20:14:38,843 INFO 2968 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 20:14:38,854 INFO 2968 [egg-sequelize](3ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 20:14:38,857 INFO 2968 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 20:15:39,501 INFO 2968 [-/127.0.0.1/-/176ms POST /getHero] [egg-sequelize](9ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 20:15:40,300 INFO 2968 [-/127.0.0.1/-/813ms POST /lottery/qualityData] [egg-sequelize](760ms) Executed (default): SELECT Quality, COUNT(*) AS Count,IsBd FROM `sys_lottery_data` GROUP BY Quality,IsBd
+2024-08-12 20:15:41,844 INFO 2968 [-/127.0.0.1/-/748ms POST /getHero] [egg-sequelize](743ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 20:15:42,305 INFO 2968 [-/undefined/-/2862ms POST /lottery/lotteryData] [egg-sequelize](2812ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 20:15:47,963 INFO 2968 [-/undefined/-/6785ms POST /lottery/qualityData] [egg-sequelize](6118ms) Executed (default): SELECT Quality, COUNT(*) AS Count,IsBd FROM `sys_lottery_data` GROUP BY Quality,IsBd
+2024-08-12 20:15:47,964 INFO 2968 [-/127.0.0.1/-/5918ms POST /getHero] [egg-sequelize](344ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 20:15:49,733 INFO 2968 [-/127.0.0.1/-/1093ms POST /lottery/qualityData] [egg-sequelize](1092ms) Executed (default): SELECT Quality, COUNT(*) AS Count,IsBd FROM `sys_lottery_data` GROUP BY Quality,IsBd
+2024-08-12 20:15:50,136 INFO 2968 [-/127.0.0.1/-/9035ms POST /lottery/lotteryData] [egg-sequelize](9034ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 20:15:56,564 INFO 2968 [-/127.0.0.1/-/8537ms POST /lottery/lotteryData] [egg-sequelize](8535ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 20:20:35,810 INFO 2968 [-/undefined/-/1061ms POST /getHero] [egg-sequelize](1016ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 20:20:37,001 INFO 2968 [-/undefined/-/2248ms POST /lottery/qualityData] [egg-sequelize](1189ms) Executed (default): SELECT Quality, COUNT(*) AS Count,IsBd FROM `sys_lottery_data` GROUP BY Quality,IsBd
+2024-08-12 20:20:37,216 INFO 2968 [-/undefined/-/2572ms POST /lottery/lotteryData] [egg-sequelize](2453ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 20:20:42,887 INFO 2968 [-/127.0.0.1/-/4ms POST /getHero] [egg-sequelize](3ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 20:20:44,000 INFO 2968 [-/127.0.0.1/-/1123ms POST /lottery/qualityData] [egg-sequelize](1120ms) Executed (default): SELECT Quality, COUNT(*) AS Count,IsBd FROM `sys_lottery_data` GROUP BY Quality,IsBd
+2024-08-12 20:20:44,856 INFO 2968 [-/127.0.0.1/-/1976ms POST /lottery/lotteryData] [egg-sequelize](1973ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 20:21:36,861 INFO 2968 [-/127.0.0.1/-/13ms POST /getHero] [egg-sequelize](5ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 20:21:37,970 INFO 2968 [-/127.0.0.1/-/1131ms POST /lottery/qualityData] [egg-sequelize](1118ms) Executed (default): SELECT Quality, COUNT(*) AS Count,IsBd FROM `sys_lottery_data` GROUP BY Quality,IsBd
+2024-08-12 20:21:38,924 INFO 2968 [-/127.0.0.1/-/2082ms POST /lottery/lotteryData] [egg-sequelize](2071ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 20:23:35,930 INFO 2968 [-/127.0.0.1/-/13ms POST /getHero] [egg-sequelize](2ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 20:23:37,186 INFO 2968 [-/127.0.0.1/-/1265ms POST /lottery/qualityData] [egg-sequelize](1252ms) Executed (default): SELECT Quality, COUNT(*) AS Count,IsBd FROM `sys_lottery_data` GROUP BY Quality,IsBd
+2024-08-12 20:23:38,143 INFO 2968 [-/127.0.0.1/-/2222ms POST /lottery/lotteryData] [egg-sequelize](2210ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 20:25:12,630 INFO 2968 [-/127.0.0.1/-/9ms POST /getHero] [egg-sequelize](2ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 20:25:13,262 INFO 2968 [-/127.0.0.1/-/640ms POST /lottery/qualityData] [egg-sequelize](633ms) Executed (default): SELECT Quality, COUNT(*) AS Count,IsBd FROM `sys_lottery_data` GROUP BY Quality,IsBd
+2024-08-12 20:26:40,076 INFO 2968 [-/127.0.0.1/-/12ms POST /getHero] [egg-sequelize](4ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 20:26:40,719 INFO 2968 [-/127.0.0.1/-/652ms POST /lottery/qualityData] [egg-sequelize](647ms) Executed (default): SELECT Quality, COUNT(*) AS Count,IsBd FROM `sys_lottery_data` GROUP BY Quality,IsBd
+2024-08-12 20:27:48,714 INFO 2968 [-/127.0.0.1/-/32ms POST /getHero] [egg-sequelize](6ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 20:27:49,332 INFO 2968 [-/127.0.0.1/-/628ms POST /lottery/qualityData] [egg-sequelize](619ms) Executed (default): SELECT Quality, COUNT(*) AS Count,IsBd FROM `sys_lottery_data` GROUP BY Quality,IsBd
+2024-08-12 20:28:43,515 INFO 2968 [-/127.0.0.1/-/8ms POST /getHero] [egg-sequelize](2ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 20:28:44,174 INFO 2968 [-/127.0.0.1/-/664ms POST /lottery/qualityData] [egg-sequelize](661ms) Executed (default): SELECT Quality, COUNT(*) AS Count,IsBd FROM `sys_lottery_data` GROUP BY Quality,IsBd
+2024-08-12 20:36:15,608 INFO 2968 [-/127.0.0.1/-/6ms POST /getHero] [egg-sequelize](2ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 20:36:16,257 INFO 2968 [-/127.0.0.1/-/658ms POST /lottery/qualityData] [egg-sequelize](651ms) Executed (default): SELECT Quality, COUNT(*) AS Count,IsBd FROM `sys_lottery_data` GROUP BY Quality,IsBd
+2024-08-12 20:43:52,148 INFO 2968 [-/127.0.0.1/-/17ms POST /getHero] [egg-sequelize](3ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 20:43:53,134 INFO 2968 [-/127.0.0.1/-/997ms POST /lottery/qualityData] [egg-sequelize](981ms) Executed (default): SELECT Quality, COUNT(*) AS Count,IsBd FROM `sys_lottery_data` GROUP BY Quality,IsBd
+2024-08-12 20:43:55,700 INFO 2968 [-/127.0.0.1/-/3558ms POST /lottery/lotteryData] [egg-sequelize](3542ms) Executed (default): SELECT `ID`, `PlanID`, `ClassIDs`, `LotteryID`, `HeroID`, `Quality`, `Num`, `IsBd`, `Odd`, `BdOdd`, `CreateTime` FROM `sys_lottery_data` AS `sys_lottery_data`;
+2024-08-12 20:45:47,791 INFO 2968 [-/undefined/-/2879ms POST /getHero] [egg-sequelize](3ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 20:45:48,428 INFO 2968 [-/undefined/-/954ms POST /lottery/qualityData] [egg-sequelize](638ms) Executed (default): SELECT Quality, COUNT(*) AS Count,IsBd FROM `sys_lottery_data` GROUP BY Quality,IsBd
+2024-08-12 20:45:49,638 INFO 2968 [-/127.0.0.1/-/11ms POST /getHero] [egg-sequelize](9ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 20:45:50,284 INFO 2968 [-/127.0.0.1/-/633ms POST /lottery/qualityData] [egg-sequelize](632ms) Executed (default): SELECT Quality, COUNT(*) AS Count,IsBd FROM `sys_lottery_data` GROUP BY Quality,IsBd
+2024-08-12 20:49:09,573 INFO 158884 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 20:49:09,574 INFO 158884 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 20:49:09,691 INFO 158884 [egg-sequelize](26ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 20:49:09,709 INFO 158884 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 20:49:55,286 INFO 158884 [-/127.0.0.1/-/76ms POST /getHero] [egg-sequelize](7ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 20:49:55,303 INFO 158884 [-/127.0.0.1/-/29ms POST /lottery/lotteryData] [egg-sequelize](9ms) Executed (default): SELECT * FROM `sys_lottery_data` limit undefined,NaN10
+2024-08-12 20:49:55,311 ERROR 158884 [-/127.0.0.1/-/33ms POST /lottery/lotteryData] nodejs.SequelizeDatabaseError: Undeclared variable: undefined
+    at Query.run (D:\testTools\egg-project\node_modules\.pnpm\sequelize@6.37.3_mysql2@3.11.0\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at D:\testTools\egg-project\node_modules\.pnpm\sequelize@6.37.3_mysql2@3.11.0\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async LotteryData.list (D:\testTools\egg-project\app\service\lotteryData.js:9:25)
+    at async LotteryDataController.getList (D:\testTools\egg-project\app\controller\lotteryData.js:13:33)
+    at async D:\testTools\egg-project\node_modules\.pnpm\egg-development@3.0.0\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_SP_UNDECLARED_VAR","errno":1327,"sqlState":"42000","sqlMessage":"Undeclared variable: undefined","sql":"SELECT * FROM `sys_lottery_data` limit undefined,NaN10"}
+original: {"code":"ER_SP_UNDECLARED_VAR","errno":1327,"sqlState":"42000","sqlMessage":"Undeclared variable: undefined","sql":"SELECT * FROM `sys_lottery_data` limit undefined,NaN10"}
+sql: "SELECT * FROM `sys_lottery_data` limit undefined,NaN10"
+parameters: {}
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 158884
+hostname: DESKTOP-K1T6R27
+
+2024-08-12 20:49:56,381 INFO 131096 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 20:49:56,383 INFO 131096 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 20:49:56,423 INFO 131096 [egg-sequelize](3ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 20:49:56,428 INFO 131096 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 20:50:01,651 INFO 131096 [-/127.0.0.1/-/28ms POST /lottery/lotteryData] [egg-sequelize](2ms) Executed (default): SELECT * FROM `sys_lottery_data` limit undefined,NaN10
+2024-08-12 20:50:01,668 ERROR 131096 [-/127.0.0.1/-/40ms POST /lottery/lotteryData] nodejs.SequelizeDatabaseError: Undeclared variable: undefined
+    at Query.run (D:\testTools\egg-project\node_modules\.pnpm\sequelize@6.37.3_mysql2@3.11.0\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at D:\testTools\egg-project\node_modules\.pnpm\sequelize@6.37.3_mysql2@3.11.0\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async LotteryData.list (D:\testTools\egg-project\app\service\lotteryData.js:9:25)
+    at async LotteryDataController.getList (D:\testTools\egg-project\app\controller\lotteryData.js:14:33)
+    at async D:\testTools\egg-project\node_modules\.pnpm\egg-development@3.0.0\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_SP_UNDECLARED_VAR","errno":1327,"sqlState":"42000","sqlMessage":"Undeclared variable: undefined","sql":"SELECT * FROM `sys_lottery_data` limit undefined,NaN10"}
+original: {"code":"ER_SP_UNDECLARED_VAR","errno":1327,"sqlState":"42000","sqlMessage":"Undeclared variable: undefined","sql":"SELECT * FROM `sys_lottery_data` limit undefined,NaN10"}
+sql: "SELECT * FROM `sys_lottery_data` limit undefined,NaN10"
+parameters: {}
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 131096
+hostname: DESKTOP-K1T6R27
+
+2024-08-12 20:50:01,683 INFO 131096 [-/127.0.0.1/-/13ms POST /getHero] [egg-sequelize](7ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 20:50:02,293 INFO 131096 [-/127.0.0.1/-/686ms POST /lottery/qualityData] [egg-sequelize](671ms) Executed (default): SELECT Quality, COUNT(*) AS Count,IsBd FROM `sys_lottery_data` GROUP BY Quality,IsBd
+2024-08-12 20:50:10,169 INFO 131096 [-/127.0.0.1/-/7ms POST /getHero] [egg-sequelize](5ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 20:50:10,179 INFO 131096 [-/127.0.0.1/-/14ms POST /lottery/lotteryData] [egg-sequelize](12ms) Executed (default): SELECT * FROM `sys_lottery_data` limit undefined,NaN10
+2024-08-12 20:50:10,183 ERROR 131096 [-/127.0.0.1/-/15ms POST /lottery/lotteryData] nodejs.SequelizeDatabaseError: Undeclared variable: undefined
+    at Query.run (D:\testTools\egg-project\node_modules\.pnpm\sequelize@6.37.3_mysql2@3.11.0\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at D:\testTools\egg-project\node_modules\.pnpm\sequelize@6.37.3_mysql2@3.11.0\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async LotteryData.list (D:\testTools\egg-project\app\service\lotteryData.js:9:25)
+    at async LotteryDataController.getList (D:\testTools\egg-project\app\controller\lotteryData.js:14:33)
+    at async D:\testTools\egg-project\node_modules\.pnpm\egg-development@3.0.0\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_SP_UNDECLARED_VAR","errno":1327,"sqlState":"42000","sqlMessage":"Undeclared variable: undefined","sql":"SELECT * FROM `sys_lottery_data` limit undefined,NaN10"}
+original: {"code":"ER_SP_UNDECLARED_VAR","errno":1327,"sqlState":"42000","sqlMessage":"Undeclared variable: undefined","sql":"SELECT * FROM `sys_lottery_data` limit undefined,NaN10"}
+sql: "SELECT * FROM `sys_lottery_data` limit undefined,NaN10"
+parameters: {}
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 131096
+hostname: DESKTOP-K1T6R27
+
+2024-08-12 20:50:10,854 INFO 131096 [-/127.0.0.1/-/670ms POST /lottery/qualityData] [egg-sequelize](669ms) Executed (default): SELECT Quality, COUNT(*) AS Count,IsBd FROM `sys_lottery_data` GROUP BY Quality,IsBd
+2024-08-12 20:51:10,855 INFO 157004 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 20:51:10,856 INFO 157004 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 20:51:10,880 INFO 157004 [egg-sequelize](3ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 20:51:10,884 INFO 157004 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 20:52:11,677 INFO 154836 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 20:52:11,678 INFO 154836 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 20:52:11,688 INFO 154836 [egg-sequelize](1ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 20:52:11,693 INFO 154836 [egg-sequelize](4ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 20:52:23,920 INFO 154836 [-/127.0.0.1/-/24ms POST /lottery/lotteryData] [egg-sequelize](4ms) Executed (default): SELECT * FROM `sys_lottery_data` limit undefined,NaN10
+2024-08-12 20:52:23,942 ERROR 154836 [-/127.0.0.1/-/36ms POST /lottery/lotteryData] nodejs.SequelizeDatabaseError: Undeclared variable: undefined
+    at Query.run (D:\testTools\egg-project\node_modules\.pnpm\sequelize@6.37.3_mysql2@3.11.0\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at D:\testTools\egg-project\node_modules\.pnpm\sequelize@6.37.3_mysql2@3.11.0\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async LotteryData.list (D:\testTools\egg-project\app\service\lotteryData.js:9:25)
+    at async LotteryDataController.getList (D:\testTools\egg-project\app\controller\lotteryData.js:15:33)
+    at async D:\testTools\egg-project\node_modules\.pnpm\egg-development@3.0.0\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_SP_UNDECLARED_VAR","errno":1327,"sqlState":"42000","sqlMessage":"Undeclared variable: undefined","sql":"SELECT * FROM `sys_lottery_data` limit undefined,NaN10"}
+original: {"code":"ER_SP_UNDECLARED_VAR","errno":1327,"sqlState":"42000","sqlMessage":"Undeclared variable: undefined","sql":"SELECT * FROM `sys_lottery_data` limit undefined,NaN10"}
+sql: "SELECT * FROM `sys_lottery_data` limit undefined,NaN10"
+parameters: {}
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 154836
+hostname: DESKTOP-K1T6R27
+
+2024-08-12 20:52:23,948 INFO 154836 [-/127.0.0.1/-/39ms POST /getHero] [egg-sequelize](20ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 20:52:24,555 INFO 154836 [-/127.0.0.1/-/685ms POST /lottery/qualityData] [egg-sequelize](648ms) Executed (default): SELECT Quality, COUNT(*) AS Count,IsBd FROM `sys_lottery_data` GROUP BY Quality,IsBd
+2024-08-12 20:52:56,476 INFO 154836 [-/127.0.0.1/-/13ms POST /user/login] [egg-sequelize](2ms) Executed (default): SELECT `UserID`, `Name`, `Password` FROM `user` AS `user` WHERE `user`.`Name` = 'xxx' LIMIT 1;
+2024-08-12 20:53:04,334 INFO 154836 [-/127.0.0.1/-/14ms POST /lottery/lotteryData] [egg-sequelize](0ms) Executed (default): SELECT * FROM `sys_lottery_data` limit undefined,NaN10
+2024-08-12 20:53:04,337 ERROR 154836 [-/127.0.0.1/-/15ms POST /lottery/lotteryData] nodejs.SequelizeDatabaseError: Undeclared variable: undefined
+    at Query.run (D:\testTools\egg-project\node_modules\.pnpm\sequelize@6.37.3_mysql2@3.11.0\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at D:\testTools\egg-project\node_modules\.pnpm\sequelize@6.37.3_mysql2@3.11.0\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async LotteryData.list (D:\testTools\egg-project\app\service\lotteryData.js:9:25)
+    at async LotteryDataController.getList (D:\testTools\egg-project\app\controller\lotteryData.js:15:33)
+    at async D:\testTools\egg-project\node_modules\.pnpm\egg-development@3.0.0\node_modules\egg-development\app\middleware\egg_loader_trace.js:7:50
+    at async xframe (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\testTools\egg-project\node_modules\.pnpm\egg-security@3.6.0\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_SP_UNDECLARED_VAR","errno":1327,"sqlState":"42000","sqlMessage":"Undeclared variable: undefined","sql":"SELECT * FROM `sys_lottery_data` limit undefined,NaN10"}
+original: {"code":"ER_SP_UNDECLARED_VAR","errno":1327,"sqlState":"42000","sqlMessage":"Undeclared variable: undefined","sql":"SELECT * FROM `sys_lottery_data` limit undefined,NaN10"}
+sql: "SELECT * FROM `sys_lottery_data` limit undefined,NaN10"
+parameters: {}
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 154836
+hostname: DESKTOP-K1T6R27
+
+2024-08-12 20:53:04,340 INFO 154836 [-/127.0.0.1/-/13ms POST /getHero] [egg-sequelize](6ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 20:53:04,952 INFO 154836 [-/127.0.0.1/-/636ms POST /lottery/qualityData] [egg-sequelize](619ms) Executed (default): SELECT Quality, COUNT(*) AS Count,IsBd FROM `sys_lottery_data` GROUP BY Quality,IsBd
+2024-08-12 20:54:01,807 INFO 160280 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 20:54:01,808 INFO 160280 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 20:54:01,824 INFO 160280 [egg-sequelize](2ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 20:54:01,828 INFO 160280 [egg-sequelize](3ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 20:54:23,643 INFO 161696 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 20:54:23,644 INFO 161696 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2024-08-12 20:54:23,654 INFO 161696 [egg-sequelize](2ms) Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'user' AND TABLE_SCHEMA = 'halo_center'
+2024-08-12 20:54:23,657 INFO 161696 [egg-sequelize](2ms) Executed (default): SHOW INDEX FROM `user`
+2024-08-12 20:54:27,968 INFO 161696 [-/127.0.0.1/-/97ms POST /lottery/lotteryData] [egg-sequelize](12ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 0,1010
+2024-08-12 20:54:27,978 INFO 161696 [-/127.0.0.1/-/28ms POST /getHero] [egg-sequelize](6ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 20:54:28,500 INFO 161696 [-/127.0.0.1/-/647ms POST /lottery/qualityData] [egg-sequelize](631ms) Executed (default): SELECT Quality, COUNT(*) AS Count,IsBd FROM `sys_lottery_data` GROUP BY Quality,IsBd
+2024-08-12 20:55:47,878 INFO 161696 [-/127.0.0.1/-/14ms POST /getHero] [egg-sequelize](2ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 20:55:47,934 INFO 161696 [-/127.0.0.1/-/12ms POST /lottery/lotteryData] [egg-sequelize](9ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 0,1010
+2024-08-12 20:55:48,662 INFO 161696 [-/127.0.0.1/-/659ms POST /lottery/qualityData] [egg-sequelize](658ms) Executed (default): SELECT Quality, COUNT(*) AS Count,IsBd FROM `sys_lottery_data` GROUP BY Quality,IsBd
+2024-08-12 20:56:09,459 INFO 161696 [-/127.0.0.1/-/16ms POST /getHero] [egg-sequelize](3ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 20:56:09,486 INFO 161696 [-/127.0.0.1/-/39ms POST /lottery/lotteryData] [egg-sequelize](7ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 0,1010
+2024-08-12 20:56:10,153 INFO 161696 [-/127.0.0.1/-/658ms POST /lottery/qualityData] [egg-sequelize](656ms) Executed (default): SELECT Quality, COUNT(*) AS Count,IsBd FROM `sys_lottery_data` GROUP BY Quality,IsBd
+2024-08-12 20:56:11,402 INFO 161696 [-/127.0.0.1/-/22ms POST /getHero] [egg-sequelize](20ms) Executed (default): SELECT `HeroID`, `Name` FROM `sys_hero` AS `sys_hero`;
+2024-08-12 20:56:11,416 INFO 161696 [-/127.0.0.1/-/34ms POST /lottery/lotteryData] [egg-sequelize](19ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 0,1010
+2024-08-12 20:56:12,112 INFO 161696 [-/127.0.0.1/-/713ms POST /lottery/qualityData] [egg-sequelize](706ms) Executed (default): SELECT Quality, COUNT(*) AS Count,IsBd FROM `sys_lottery_data` GROUP BY Quality,IsBd
+2024-08-12 20:56:14,834 INFO 161696 [-/127.0.0.1/-/10ms POST /lottery/lotteryData] [egg-sequelize](7ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 0,1010
+2024-08-12 20:56:20,365 INFO 161696 [-/127.0.0.1/-/6ms POST /lottery/lotteryData] [egg-sequelize](4ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 0,1010
+2024-08-12 20:56:21,418 INFO 161696 [-/127.0.0.1/-/5ms POST /lottery/lotteryData] [egg-sequelize](4ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 0,1010
+2024-08-12 20:56:22,192 INFO 161696 [-/127.0.0.1/-/17ms POST /lottery/lotteryData] [egg-sequelize](13ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 0,1010
+2024-08-12 20:56:42,042 INFO 161696 [-/127.0.0.1/-/23ms POST /lottery/lotteryData] [egg-sequelize](11ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 0,1010
+2024-08-12 20:56:42,887 INFO 161696 [-/127.0.0.1/-/169ms POST /lottery/lotteryData] [egg-sequelize](10ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 0,1010
+2024-08-12 21:00:25,680 INFO 161696 [-/127.0.0.1/-/24ms POST /lottery/lotteryData] [egg-sequelize](15ms) Executed (default): SELECT * FROM `sys_lottery_data` limit 0,1010
